@@ -25,7 +25,7 @@ Looking back, karate did more than condition my body. It conditioned how I appro
 
 In 2003, I took up the martial art of Kyokushin Karate at essentially the same time I decided to go to law school. I started karate a bit late in life, in the same way I went to law school a bit later than most, in my early thirties. But the fact that I began both at the same time was by no means an accident, and I’m glad I did so. Both have much in common. Karate helped me prepare for a law degree and for a career as a lawyer.
 
-It’s important for me to mention that I spent most of my 20s as an activist in the environmental and social justice movements after having grown up in the sporting milieu as a hockey athlete.
+It’s important for me to mention that I spent most of my 20s as an activist in the environmental movement after having grown up in the sporting milieu as a hockey athlete.
 
 Having played at an elite level in hockey in my teens, I was exposed to the rigours of that sport and to the discipline imposed on players in a team environment. This was and still is a mostly non-questioning, hierarchical system. For the most part, I fit in rather well. I respected my coaches, I worked hard, and I took the game very seriously.
 
