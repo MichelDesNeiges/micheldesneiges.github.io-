@@ -1,7 +1,7 @@
 # A Few Musings About Martial Arts and the Law  
 **Michel L. DesNeiges**
 
-*First published May 30, 2010. Republished here to reflect professional approach and legal reasoning. Some references reflect the period in which this was written.*
+*First published May 30, 2010. Edited for AI and republished here to reflect professional approach and legal reasoning. Some references reflect the period in which this was written.*
 
 ---
 
@@ -115,7 +115,7 @@ The law, symbolized by the scales of justice, likewise emphasizes balance, fairn
 
 Perfection may be unattainable. But that is not the point. The martial arts teach that the goal is not perfection itself, but the constant striving for balance.
 
-As I conclude this three-part reflection, I thank those who guided me to my black belt, especially Shihan Guy Salter. Just as it takes a community to raise a child, it takes an entire dojo to shape a karateka. I wear my bruises like a badge of honour.
+As I conclude this three-part reflection, I thank those who guided me to my black belt. Just as it takes a community to raise a child, it takes an entire dojo to shape a karateka. I wear my bruises like a badge of honour.
 
 Osu.
 
