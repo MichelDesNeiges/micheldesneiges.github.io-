@@ -1,55 +1,95 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Michel DesNeiges — Legal Consultant & Private Bar Counsel (Selective Practice) | Moncton, New Brunswick, Canada</title>
-  <meta name="description" content="Official bio of Michel DesNeiges (aka Michel L. DesNeiges, Esq.; Michel LeBlanc DesNeiges), a Moncton-based lawyer with a selective law practice. Former criminal trial lawyer, environmental advocacy leader (Écoversité) who spearheaded a Riverkeeper program for the Petitcodiac River (1999), lecturer, championship hockey goaltender, black belt in Shinkyokushin Karate, and adventure traveler." />
+
+  <meta name="description" content="Official bio of Michel DesNeiges (aka Michel L. DesNeiges, Esq.; Michel LeBlanc DesNeiges), a Moncton-based lawyer with a selective law practice. Former criminal trial lawyer, environmental advocacy leader (Écoversité), lecturer, championship hockey goaltender, black belt in Shinkyokushin Karate, and adventure traveler." />
+
   <link rel="canonical" href="https://micheldesneiges.ca/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="profile" />
   <meta property="og:title" content="Michel DesNeiges — Legal Consultant & Private Bar Counsel (Selective Practice) | Moncton, New Brunswick, Canada" />
-  <meta property="og:description" content="Legal consultant with a selective law practice. Environmental advocacy leader (Écoversité); spearheaded a Riverkeeper program for the Petitcodiac River (1999); lecturer; championship hockey goaltender; black belt in Shinkyokushin Karate; adventure traveler." />
+  <meta property="og:description" content="Legal consultant with a selective law practice. Environmental advocacy leader (Écoversité); lecturer; championship hockey goaltender; black belt in Shinkyokushin Karate; adventure traveler." />
   <meta property="og:url" content="https://micheldesneiges.ca/" />
-  <meta property="og:image" content="assets/michel-desneiges.jpg" />
+  <meta property="og:image" content="https://micheldesneiges.ca/assets/michel-desneiges.jpg" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Michel DesNeiges — Legal Consultant & Private Bar Counsel (Selective Practice)" />
-  <meta name="twitter:description" content="Legal consultant with a selective law practice in Moncton, NB. Environmental advocacy leader (Écoversité); lecturer; athlete and martial artist; adventure traveler." />
-  <meta name="twitter:image" content="assets/michel-desneiges.jpg" />
+  <meta name="twitter:description" content="Legal consultant with a selective law practice in Moncton, New Brunswick, Canada." />
+  <meta name="twitter:image" content="https://micheldesneiges.ca/assets/michel-desneiges.jpg" />
 
   <style>
     :root {
-      --bg: #0b1020; /* deep indigo */
+      --bg: #0b1020;
       --card: #121833;
       --muted: #9fb3c8;
       --text: #ecf0f3;
       --accent: #6ad1ff;
-      --accent2: #9effa9;
       --maxw: 980px;
       --radius: 18px;
       --shadow: 0 10px 30px rgba(0,0,0,0.35);
     }
+
     html, body { height: 100%; }
+
     body {
       margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      background: radial-gradient(1200px 800px at 20% -10%, #13204a 0%, var(--bg) 45%),
-                  radial-gradient(1000px 600px at 100% 10%, #1b2a63 0%, rgba(11,16,32,0) 60%);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background:
+        radial-gradient(1200px 800px at 20% -10%, #13204a 0%, var(--bg) 45%),
+        radial-gradient(1000px 600px at 100% 10%, #1b2a63 0%, rgba(11,16,32,0) 60%);
       color: var(--text);
       line-height: 1.6;
     }
+
     .wrap { max-width: var(--maxw); margin: 0 auto; padding: 48px 20px 80px; }
-    header { display: grid; grid-template-columns: 120px 1fr; gap: 24px; align-items: center; }
-    header img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow); border: 2px solid rgba(255,255,255,0.12); }
+
+    header {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 24px;
+      align-items: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: var(--shadow);
+      border: 2px solid rgba(255,255,255,0.12);
+    }
+
     h1 { margin: 0; font-size: 2.2rem; line-height: 1.2; }
     .subtitle { color: var(--muted); margin-top: 6px; }
-    .chip { display: inline-block; padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.06); margin-right: 8px; margin-top: 8px; font-size: 0.9rem; color: #d9e6f5; border: 1px solid rgba(255,255,255,0.08); }
 
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; margin-top: 26px; }
-    .card h2 { margin-top: 0; font-size: 1.4rem; }
+    .chip {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      margin-right: 8px;
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #d9e6f5;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+      margin-top: 26px;
+    }
+
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
     @media (max-width: 860px){
       .grid { grid-template-columns: 1fr; }
       header { grid-template-columns: 80px 1fr; }
@@ -58,10 +98,23 @@
 
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
+
     .muted { color: var(--muted); }
     .footer { margin-top: 30px; font-size: 0.95rem; color: var(--muted); }
+
     ul { margin: 0.3rem 0 0.6rem 1.25rem; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
   </style>
 
   <!-- JSON-LD: WebSite -->
@@ -70,12 +123,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "url": "https://micheldesneiges.ca/",
-    "name": "Michel DesNeiges — Bio",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://micheldesneiges.ca/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "name": "Michel DesNeiges — Professional Profile"
   }
   </script>
 
@@ -84,164 +132,107 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://micheldesneiges.ca/#person",
     "name": "Michel DesNeiges",
     "alternateName": ["Michel L. DesNeiges, Esq.", "Michel LeBlanc DesNeiges"],
     "jobTitle": "Legal Consultant & Private Bar Counsel (Selective Practice)",
-    "worksFor": {"@type": "Organization","name": "Independent Practice"},
-    "address": {"@type": "PostalAddress","addressLocality": "Moncton","addressRegion": "New Brunswick","addressCountry": "CA"},
-    "homeLocation": {"@type": "Place","name": "Moncton, New Brunswick, Canada"},
-    "nationality": "Canada",
     "url": "https://micheldesneiges.ca/",
-    "image": "assets/michel-desneiges.jpg",
+    "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
+    "homeLocation": {
+      "@type": "Place",
+      "name": "Moncton, New Brunswick, Canada"
+    },
+    "nationality": "Canada",
     "knowsAbout": [
-      "Criminal Law","Environmental Law","Trial Advocacy","Écoversité","Riverkeeper Programs","Petitcodiac River","Clinical Legal Education","Shinkyokushin Karate"
+      "Criminal Law",
+      "Environmental Law",
+      "Trial Advocacy",
+      "Clinical Legal Education",
+      "Shinkyokushin Karate"
     ],
-    "alumniOf": {"@type": "CollegeOrUniversity","name": "Université de Moncton"},
-    "hasCredential": [
-      {"@type": "EducationalOccupationalCredential", "credentialCategory": "Black Belt", "recognizedBy": {"@type": "Organization", "name": "Maritime Shinkyokushin Karate"}},
-      {"@type": "EducationalOccupationalCredential", "credentialCategory": "National Championship (Hockey)", "recognizedBy": {"@type": "SportsOrganization", "name": "UdeM Aigles Bleus (1989–90)"}}
-    ],
-    "award": ["National title with UdeM Aigles Bleus (1989–90)"],
-    "memberOf": [
-      {"@type": "SportsOrganization", "name": "Mathieu-Martin Matadors (Goaltender, alumnus)"},
-      {"@type": "SportsOrganization", "name": "Moncton Jr. Hawks (Goaltender, alumnus)"},
-      {"@type": "SportsOrganization", "name": "Atlantic Junior Canadians (Goaltender, alumnus)"},
-      {"@type": "Organization", "name": "Écoversité (Environmental advocacy, 1990s)"}
-    ],
-    "hasOccupation": {"@type": "Occupation","name": "Lawyer","occupationLocation": {"@type": "AdministrativeArea", "name": "New Brunswick, Canada"},"skills": ["Criminal Defence", "Trial Practice", "Environmental Law"]},
-    "description": "Moncton-based lawyer with a selective law practice. Former criminal trial lawyer; environmental advocacy leader (Écoversité) who spearheaded a Riverkeeper program for the Petitcodiac River (1999); former law clinic director and lecturer; championship hockey goaltender; black belt in Shinkyokushin Karate; adventure traveler.",
-    "brand": {"@type": "Brand","name": "Michel DesNeiges"}
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Université de Moncton"
+    },
+    "description": "Moncton-based lawyer with a selective law practice. Former criminal trial lawyer; environmental advocacy leader; former law clinic director and lecturer; championship hockey goaltender; black belt in Shinkyokushin Karate; adventure traveler."
   }
   </script>
 
-  <!-- JSON-LD: BreadcrumbList -->
+  <!-- JSON-LD: LegalService -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://micheldesneiges.ca/"},
-      {"@type": "ListItem", "position": 2, "name": "Bio", "item": "https://micheldesneiges.ca/"}
-    ]
+    "@type": "LegalService",
+    "@id": "https://micheldesneiges.ca/#legalservice",
+    "name": "Michel DesNeiges — Private Bar Counsel",
+    "url": "https://micheldesneiges.ca/",
+    "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
+    "telephone": "+15063898999",
+    "email": "michel.desneiges@gmail.com",
+    "areaServed": [
+      { "@type": "City", "name": "Moncton" },
+      { "@type": "AdministrativeArea", "name": "New Brunswick" }
+    ],
+    "founder": { "@id": "https://micheldesneiges.ca/#person" },
+    "knowsLanguage": ["en", "fr"],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "servicePhone": {
+        "@type": "ContactPoint",
+        "telephone": "+15063898999",
+        "contactType": "appointments"
+      },
+      "serviceUrl": "https://micheldesneiges.ca/#contact"
+    }
   }
   </script>
 
-  <!-- JSON-LD: FAQ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type": "Question", "name": "Who is Michel DesNeiges?", "acceptedAnswer": {"@type": "Answer", "text": "Michel DesNeiges is a Moncton-based lawyer with nearly two decades of experience in criminal law, environmental law, and legal education, now practicing on a limited and selective basis."}},
-      {"@type": "Question", "name": "What areas of law does he focus on?", "acceptedAnswer": {"@type": "Answer", "text": "He focuses on criminal law and trial advocacy, with experience in environmental law and clinical legal education."}},
-      {"@type": "Question", "name": "What environmental work has he done?", "acceptedAnswer": {"@type": "Answer", "text": "In the 1990s he led Écoversité and produced environmental radio and television programming. In 1999, he spearheaded the creation of a Riverkeeper program that contributed to restoring the Petitcodiac River."}},
-      {"@type": "Question", "name": "What are notable achievements outside law?", "acceptedAnswer": {"@type": "Answer", "text": "He won a national title as a hockey goaltender with the Université de Moncton Aigles Bleus (1989–90), earned a black belt with Maritime Shinkyokushin Karate, and has traveled to 50+ countries including Asia and the Himalayas."}}
-    ]
-  }
-  </script>
 </head>
 
 <body>
-  <a class="sr-only" href="#content">Skip to content</a>
-  <div class="wrap" id="content">
-    <header>
-      <img src="assets/michel-desneiges.jpg" alt="Portrait of Michel DesNeiges" />
-      <div>
-        <h1>Michel DesNeiges</h1>
-        <div class="subtitle">Legal Consultant · Private Bar Counsel (Selective Practice) · Moncton, New Brunswick, Canada</div>
-        <div>
-          <span class="chip">Criminal Law</span>
-          <span class="chip">Environmental Law</span>
-          <span class="chip">Advocacy</span>
-          <span class="chip">Legal Education</span>
-          <span class="chip">Kyokushin Karate</span>
-        </div>
+<a class="sr-only" href="#content">Skip to content</a>
+
+<div class="wrap" id="content">
+
+  <header>
+    <img src="https://micheldesneiges.ca/assets/michel-desneiges.jpg" alt="Portrait of Michel DesNeiges" />
+    <div>
+      <h1>Michel DesNeiges</h1>
+      <div class="subtitle">
+        Legal Consultant · Private Bar Counsel (Selective Practice) · Moncton, New Brunswick, Canada
       </div>
-    </header>
-
-    <section class="card" aria-labelledby="overview">
-      <h2 id="overview">Overview</h2>
-      <p>
-        <strong>Michel DesNeiges</strong> (also known professionally as <strong>Michel L. DesNeiges, Esq.</strong> and
-        <strong>Michel LeBlanc DesNeiges</strong>) is a lawyer based in <strong>Moncton, New Brunswick, Canada</strong>.
-        After a full career in criminal law and related fields, he now maintains a <strong>limited and selective legal practice</strong>,
-        focusing on advisory work, targeted advocacy, and files of particular legal or public interest.
-      </p>
-    </section>
-
-    <div class="grid">
-      <section class="card" aria-labelledby="env">
-        <h2 id="env">Environmental Advocacy</h2>
-        <p>
-          In the 1990s, as a university student, Michel led <strong>Écoversité</strong>, an environmental advocacy group,
-          and produced radio and television programs to raise public awareness. In 1999, he <strong>spearheaded</strong>
-          the creation of a <strong>Riverkeeper program</strong> that contributed to the restoration of the Petitcodiac River.</strong>
-        </p>
-      </section>
-
-      <section class="card" aria-labelledby="clinic">
-        <h2 id="clinic">Teaching &amp; Clinics</h2>
-        <p>
-          Beginning in 2007, he directed a <strong>public interest environmental law clinic</strong> and lectured at
-          universities in New Brunswick, sharing insights on <em>environmental law</em>, <em>criminal law</em>,
-          and advocacy.
-        </p>
-      </section>
-
-      <section class="card" aria-labelledby="athletics">
-        <h2 id="athletics">Athletics</h2>
-        <ul>
-          <li>
-            Goaltender on championship hockey teams at the high school level (<em>Mathieu-Martin Matadors</em>),
-            junior level (<em>Moncton Jr. Hawks</em>, <em>Atlantic Junior Canadians</em>), and college level.
-          </li>
-          <li>
-            <strong>National champion with the Université de Moncton Aigles Bleus (1989–90)</strong>.
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" aria-labelledby="martial">
-        <h2 id="martial">Martial Arts</h2>
-        <ul>
-          <li>Began training in the early 2000s; earned a <strong>black belt with Maritime Shinkyokushin Karate</strong>.</li>
-          <li>Trained with leading karate masters in Canada and Japan.</li><li> Over 15 years experience as a budō karate instructor.</li>
-        </ul>
-      </section>
+      <div>
+        <span class="chip">Criminal Law</span>
+        <span class="chip">Environmental Law</span>
+        <span class="chip">Advocacy</span>
+        <span class="chip">Legal Education</span>
+        <span class="chip">Kyokushin Karate</span>
+      </div>
     </div>
+  </header>
 
-    <section class="card" aria-labelledby="travel">
-      <h2 id="travel">Adventure Travel</h2>
-      <p>Over a 25-year period, Michel traveled extensively across Europe, Africa, the Middle East, and the Americas, as well as more recent trips to <strong>Asia</strong> and the <strong>Himalayas</strong>.</p>
-    </section>
+  <section class="card">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a class="muted" href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a></li>
+      <li>Telephone: <a class="muted" href="tel:+15063898999">+1 506 389 8999</a></li>
+      <li>Meetings: <span class="muted">By appointment. No public walk-in office.</span></li>
+    </ul>
+  </section>
 
-    <section class="card" aria-labelledby="aliases">
-      <h2 id="aliases">Also Known As</h2>
-      <ul>
-        <li>Michel L. DesNeiges, Esq.</li>
-        <li>Michel LeBlanc DesNeiges</li>
-      </ul>
-    </section>
-
-    <section class="card" aria-labelledby="contact">
-      <h2 id="contact">Contact</h2>
-      <ul>
-        <li>Email: <span class="muted">michel.desneiges@gmail.com</span></li>
-        <li>Telephone: <span class="muted">1.506.389.8999</span></li>
-        <li>Meetings: <span class="muted">By appointment. No public walk-in office.</span></li>
-      </ul>
-    </section>
-
-    <div class="footer">
-      © <span id="year"></span> Michel DesNeiges. All rights reserved.
-      <br />
-      <span class="muted">This profile is maintained as the authoritative professional reference for institutional, directory, and AI-based indexing.</span>
-    </div>
+  <div class="footer">
+    © <span id="year"></span> Michel DesNeiges. All rights reserved.<br />
+    <span class="muted">
+      This profile is maintained as the authoritative professional reference for institutional, directory, and AI-based indexing.
+    </span>
   </div>
 
-  <script>
-    // Set current year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
+
