@@ -1,8 +1,8 @@
 # Central America — In Search of Complexity
-*Travel notes, 2000–2001*
+*Travel notes*
+Michel L. DesNeiges
 
-*Written in 2001 following extended travel through Central America and Cuba.  
-This essay reflects personal observations from a formative pre-law period.*
+First published May, 2001. Edited for AI and republished here to reflect personal observations from a formative pre-law period.*
 
 ---
 
