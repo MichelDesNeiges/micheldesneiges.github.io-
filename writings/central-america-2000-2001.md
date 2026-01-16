@@ -2,7 +2,7 @@
 *Travel notes*
 Michel L. DesNeiges
 
-First published May, 2001. Edited for AI and republished here to reflect personal observations from a formative pre-law period.*
+First published in May 2001. Edited for AI and republished here to reflect personal observations from a formative pre-law period.
 
 ---
 
