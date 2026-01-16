@@ -1,147 +1,215 @@
 <!doctype html>
-<html lang="en-CA">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Cuba — Highs and Lows (2000) | Michel DesNeiges</title>
+  <title>The Highs and Lows of Cuba — Michel DesNeiges (English Translation)</title>
 
-  <meta name="description" content="Travel notes from Cuba in 2000, exploring revolution, contradiction, dignity, and everyday life." />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://micheldesneiges.ca/writings/cuba-2000.html" />
+  <meta name="description" content="The Highs and Lows of Cuba (March 24, 2001) — an essay by Michel DesNeiges. Originally written in French; presented here in English translation." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Adjust the canonical if you choose a different slug -->
+  <link rel="canonical" href="https://micheldesneiges.ca/writings/the-highs-and-lows-of-cuba/" />
+
+  <!-- Optional: sitemap hint (invisible) -->
+  <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml" />
 
   <style>
+    :root {
+      --bg: #0b1020;
+      --muted: #9fb3c8;
+      --text: #ecf0f3;
+      --accent: #6ad1ff;
+      --maxw: 980px;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    html, body { height: 100%; }
+
     body {
       margin: 0;
-      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-      background: #0b1020;
-      color: #ecf0f3;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 800px at 20% -10%, #13204a 0%, var(--bg) 45%),
+        radial-gradient(1000px 600px at 100% 10%, #1b2a63 0%, rgba(11,16,32,0) 60%);
+      color: var(--text);
       line-height: 1.7;
     }
+
     .wrap {
-      max-width: 780px;
+      max-width: var(--maxw);
       margin: 0 auto;
       padding: 48px 20px 80px;
     }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 26px;
+    }
+
     h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.25rem;
+      margin: 0 0 10px;
+      font-size: 2.0rem;
+      line-height: 1.2;
     }
-    .subtitle {
-      color: #9fb3c8;
-      margin-bottom: 1.5rem;
+
+    .meta {
+      color: var(--muted);
+      margin: 0 0 18px;
+      font-size: 0.98rem;
     }
-    .context {
-      font-style: italic;
-      color: #9fb3c8;
-      margin-bottom: 2.5rem;
+
+    .kicker {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #d9e6f5;
+      font-size: 0.92rem;
     }
-    h2 {
-      margin-top: 3rem;
-      font-size: 1.4rem;
-    }
-    p {
-      margin: 1.2rem 0;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid rgba(255,255,255,0.15);
-      margin: 2.5rem 0;
-    }
-    a { color: #6ad1ff; }
-    .back {
-      margin-top: 4rem;
-      color: #9fb3c8;
+
+    article p { margin: 0 0 14px; }
+
+    .footer {
+      margin-top: 22px;
       font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
     }
   </style>
+
+  <!-- JSON-LD: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://micheldesneiges.ca/writings/the-highs-and-lows-of-cuba/#article",
+    "headline": "The Highs and Lows of Cuba",
+    "datePublished": "2001-03-24",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "@id": "https://micheldesneiges.ca/#person",
+      "name": "Michel DesNeiges",
+      "url": "https://micheldesneiges.ca/"
+    },
+    "isBasedOn": {
+      "@type": "CreativeWork",
+      "inLanguage": "fr",
+      "name": "Les hauts et les bas de Cuba"
+    },
+    "about": ["Travel Writing", "Cuba", "Havana", "Politics", "Culture", "Sierra Maestra", "Pico Turquino"],
+    "mainEntityOfPage": "https://micheldesneiges.ca/writings/the-highs-and-lows-of-cuba/"
+  }
+  </script>
 </head>
 
 <body>
-  <main class="wrap">
-    <h1>Cuba — Highs and Lows</h1>
-    <div class="subtitle">Travel notes, 2000</div>
+  <a class="sr-only" href="#content">Skip to content</a>
 
-    <div class="context">
-      Written in 2000 following travel in Cuba.<br />
-      Names have been changed.
-    </div>
+  <main class="wrap" id="content">
+    <section class="card" aria-labelledby="title">
+      <header>
+        <h1 id="title">The Highs and Lows of Cuba</h1>
 
-    <p><strong>November 22nd, 2000.</strong> Cancún, Mexico.</p>
+        <p class="meta">
+          <strong>Date:</strong> <time datetime="2001-03-24">March 24, 2001</time><br />
+          <span class="kicker">Originally written in French; this is an English translation.</span><br />
+          <span class="meta">Written during travel in Cuba, 2000–2001.</span>
+        </p>
+      </header>
 
-    <p>I’m sitting comfortably on an Aero Cubana flight, headed for Havana, when a flight attendant leans over, hands out candy, and asks if this is my first time in Cuba.</p>
+      <article aria-label="Essay text">
+        <p><strong>November 22. Cancun, Mexico.</strong></p>
 
-    <p>“Yes,” I tell her — in terrible Spanish. <em>Primera vez.</em></p>
+        <p>I was sitting comfortably in my seat on an Aero Cubana flight bound for Havana when a flight attendant handing out candies to passengers leaned toward me and asked whether this was my first visit to Cuba. “Sí, señorita, primera vez,” I answered in my very broken Spanish. “Pero, uh… uh… I’ve been dying to go.”</p>
 
-    <p>Then, in English: “I’ve been dying to go.”</p>
+        <p>In fact, I was filled with nostalgia. All sorts of images came to mind: Fidel Castro’s failure during the Bay of Pigs invasion in 1961, the October 1962 missile crisis pitting Presidents Kennedy and Khrushchev against each other, and Pierre Trudeau visiting in 1976.</p>
 
-    <p>An engine explodes behind my wing.</p>
+        <p>I had been told that the country had not really changed since the 1959 revolution. I had no doubt about it, since already now I felt as though I were traveling back in time in this Soviet-model airplane from the 1970s.</p>
 
-    <p>The pilot comes on the intercom, calm, routine. Minor technical issues.</p>
+        <p>A few moments before takeoff, I felt the engines surge. It is my favorite moment during flights. I like the feeling of the powerful engines just before the aircraft is propelled into the air. The engines on this plane seemed particularly unleashed, as if the pilot were pushing them to the maximum. I told myself it must be a feature of this model. The wheels began to turn when, all of a sudden… <strong>BOOM!</strong></p>
 
-    <p>A tourist in front of me turns around and says, dry as hell:</p>
+        <p>An engine exploded under the wing behind me. All the passengers jolted and started looking around for clues as to what had happened. The plane was still rolling, but the engines slowed in a reassuring decrescendo. A few moments later, we heard the pilot over the intercom. In a very routine tone, he announced that we were experiencing some technical problems. Finally, the plane veered off the runway and headed back toward the terminal. “Welcome to Cuba!” a tourist sitting in front of me blurted out sarcastically.</p>
 
-    <p>“Welcome to Cuba.”</p>
+        <p>We remained in Cancun for another twenty hours before taking another flight. Once we arrived at Havana’s international airport, we endured a frustrating two-hour wait at customs. When I finally made it through the doors into the airport’s main concourse, beautiful late-afternoon sunbeams were piercing the huge windows of this ultra-modern building. Instead of rushing outside, I collapsed on a bench and closed my eyes. Exhausted, impatient, and somewhat disillusioned by the experiences of the previous twenty-four hours, I needed to gather my thoughts.</p>
 
-    <h2>Arrival</h2>
+        <p>A few moments later, a very delicate voice addressed me. I slowly turned my gaze and discovered a pretty woman of about forty. Smiling, and resting her hand gently on my knee, she asked whether she could help me better interpret the city map I was holding in my hands. I immediately guessed that she really wanted to rent me a room in a private home—something now permitted for certain Cuban citizens. Indeed, she introduced herself as Isabella, and she produced her official papers authorizing her to solicit tourists.</p>
 
-    <p>When we finally land in Havana, customs takes two. Long. Frustrating.</p>
+        <p>Charmed by her manner, I accepted her offer and she led me to her old blue Chevrolet, one among thousands of cars dating from before the Revolution that have become the signature of Cuba. We reached the city just before sunset, passing very near the spectacular Plaza de la Revolución where tens of thousands of people regularly gather for political speeches delivered by Fidel Castro. That very evening, settled into my new residence and fully recovered from my misadventures, I savored my first Cuban cigar, a courtesy of my new “landlady.”</p>
 
-    <p>Instead of rushing outside, I collapse onto a bench and close my eyes.</p>
+        <p>The next day, I began a wonderful exploration of Old Havana and its many residential and tourist districts. Habana Vieja is designated a UNESCO World Heritage site due to the richness of its colonial architecture. Cosmopolitan, the city offers endless activities, from its many museums and historic monuments to art performances and hundreds of nightclubs where every kind of rhythm is played—jazz, rumba, mambo, and son.</p>
 
-    <p>Exhausted. Impatient. A little disillusioned.</p>
+        <p>After a few days of tourism, I nonetheless opened my eyes and my mind to Havana’s other reality: poverty. When one takes the trouble to stray from the tourist streets, one discovers that most of the city is in deterioration. The exteriors of buildings—worn and often in a state of decay—offer clues as to the misery inside the apartments. In truth, it is neither a secret nor a mystery that all of Cuba has suffered for many years, above all because of the United States’ Helms–Burton embargo and the collapse of the Soviet Union, which had been Cuba’s principal economic partner. Cuban government austerity measures impose a very difficult way of life on the Cuban people.</p>
 
-    <h2>Havana</h2>
+        <p>I wanted to better understand this daily reality, and so for the next few days I visited, in the company of an acquaintance of Isabella named Enrique, a few small towns as well as farms. There were contradictory signs. On the one hand, there seemed to be a shortage of everything: good food, adequate housing, efficient and safe transportation systems. But on the other hand, resources seemed to be shared in a manner that ensured a certain dignity for everyone. This was particularly true in education and health. These services remain universal and of high quality. Indeed, Cubans take great pride in these public institutions.</p>
 
-    <p>Havana is intoxicating.</p>
+        <p>It was precisely during an exploration of the medical faculty of the Universidad de La Habana that I met the person who illuminated me most regarding the living conditions of Cubans and the pride of this people.</p>
 
-    <p>But if you step off the tourist routes — really step off — another Havana appears.</p>
+        <p>I was in the car with Enrique, in his very small 1960 Renault, stopped at an intersection, when out of the corner of my eye I caught sight of the elegant figure of a young woman emerging from a crowd. She was dressed entirely in white, which set off her very alluring Afro-Cuban features, including her long, black, curly hair. I was completely fixed on her when she turned her gaze directly toward me. Without the slightest hesitation, she began to walk straight toward our car. I flinched as I watched her cross two lanes and then ask me whether she could get a lift. Mouth open, I turned toward Enrique, who exclaimed, “Sí, sí, bueno!” As she settled into the back seat, I thought to myself, <em>What wonderful audacity!</em></p>
 
-    <p>The poverty isn’t hidden.</p>
+        <p>Her name was Ester. She told us she was heading to the big demonstration. “Qué casualidad!” Enrique exclaimed, taking the opportunity to tell Ester that I was heading there too. A few minutes later, with a macho air, Enrique asked me out loud what I thought of Ester. Then he asked Ester whether she had a lover. We were both embarrassed, though somewhat amused by Enrique’s brazenness. Once we arrived at the rally, I clenched my teeth and then thanked Enrique for his “generosity.” Ester and I then headed into the demonstration together.</p>
 
-    <p>But there is also sharing. A rough kind of equity.</p>
+        <p>More than one hundred thousand people were assembled to listen to speeches given by young student leaders. Castro was present, though he did not speak. Political demonstrations are a regular activity in Cuba. Far from being spontaneous gatherings, they are generally mandatory for designated groups—young people, in this case. As one might expect, it was largely an exercise in propaganda. Themes of social justice, resistance against capitalist imperialism, and sacrifice for the homeland returned with each speaker until they became very monotonous. And yet, the enthusiasm generated in the crowd seemed authentic. There is a genuine respect for the Revolution. And with reason.</p>
 
-    <p>Healthcare and education are universal. And good.</p>
+        <p>A few days later, in the company of Ester, I visited the Museum of the Revolution, which describes the famous struggle that led to the expulsion of the Batista regime and the rebels of Fidel Castro coming to power. As Ester interpreted it for me, this small group of rebels seized power under the banner of social justice and opposition to the corruption of an alliance of tyrants who sought only to consolidate their control over all of the country’s resources. After the victory, the rebels began a social and political experiment that redistributed resources more equitably and ensured that everyone could live with dignity. Ester spoke to me of her vocation as a nurse in the terms of the Revolution. “Everyone can be proud of their contribution,” she affirmed.</p>
 
-    <h2>Revolution</h2>
+        <p>But not everyone agrees, of course. The Castro regime, which claims to be for the people, has seen tens of thousands flee to the United States since the beginning of the Revolution. Moreover, Fidel Castro remains a dictator. And although he constantly proclaims the benefits of the Revolution, the regime is accused of human-rights violations.</p>
 
-    <p>Castro is, undeniably, a dictator.</p>
+        <p>Nevertheless, despite all of this ambiguity, one thing is indisputable: the courage and endurance of Cubans. If I suspected it, one particular experience confirmed it—my ascent of the highest summit in the country in the company of a group of Young Communists of Cuba.</p>
 
-    <p>Human rights violations are real.</p>
+        <p>Pico Turquino is the highest mountain in Cuba and lies in the mountain range called the Sierra Maestra in the east of the country. It was in the jungles of the Sierra Maestra that Fidel Castro’s small team of revolutionaries set up in 1956. The Sierra Maestra is therefore highly significant for the Cuban people, and that is why the ascent of Pico Turquino was doubly important for these young people.</p>
 
-    <p>Cuba is not simple.</p>
+        <p>The hike began fairly well. The view was spectacular. One could see for dozens of kilometers above the mountains and down to the plains a thousand meters below. I had my backpack and good boots. Most of the Cubans, by contrast, wore only ordinary shoes or espadrilles, and this for a route known for its muddy and very steep trails. Despite that, they often sang at the top of their lungs—something that encouraged me to keep my distance and quicken my pace. In fact, I realized that for them it was not so much the beauty of the landscape that drew them to this hike, but rather the conquest of the mountain.</p>
 
-    <p>But one thing is undeniable: the endurance of its people.</p>
+        <p>We finally arrived at our camp at the eighth kilometer after a walk of about three hours. I was completely exhausted. It would have been normal to settle in here for the evening and head for the summit the next morning. In fact, it was already 3:30 p.m., and we still had four kilometers to go. For about half an hour everyone collapsed on the ground to rest and savor the euphoria that comes after demanding physical activity. The sun was blazing, the air was pure, and the beauty of the surroundings filled me. I was just about to doze off when I heard our guide begin repeating softly that it was time to start walking again. Staring at the summit of Pico Turquino, still well beyond our reach, I realized our guide was not a professional. No professional guide would propose undertaking such a long stretch so late in the day. Indeed, the sun was setting around 6:30 p.m. these days. It was 4:00 p.m., and we certainly had a walk of more than two hours ahead of us. As for the Cubans, even before I got up from my straw bed, most of them were already on the move. With trepidation, I set off after them.</p>
 
-    <h2>Pico Turquino</h2>
+        <p>This part of the hike was awful. We were climbing almost straight up. Although I had left my bag behind at camp, the earlier march had exhausted me and my legs could hardly take any more. I stayed at the back of the group with a few others who were also struggling. Once we reached an altitude of 2,000 meters, the heat left us and a mist enveloped us, so that nothing was visible even a few meters ahead. Worse still, the sun was disappearing. Near the summit, it became clear that we would not be able to return to camp in daylight unless we left immediately.</p>
 
-    <p>I see that endurance most clearly on Pico Turquino — the highest mountain in Cuba.</p>
+        <p>I procrastinated for several more minutes. It was a battle between my pride and common sense. Would I give up before reaching the summit, or do as the others did and charge straight ahead despite my exhaustion, the precariousness of the trail, and the imminent darkness? Finally, I said, “fuck it, I’m going back.”</p>
 
-    <p>I turn back before the summit.</p>
+        <p>The return was not easy. I had to endure a hard forty-five-minute walk in constant pain. It was my own anger that propelled me forward. I was furious at the guide for being irresponsible enough to lead us on such an excursion. I was also angry with the Cubans, who had been loud throughout the hike. And I was still somewhat disappointed with myself for not having completed the route. With great difficulty I reached camp fifteen minutes after total darkness. I nearly took a few nasty spills on the descent, but I made it out safe and sound.</p>
 
-    <p>Angry. Exhausted. Furious at the guide. At them. At myself.</p>
+        <p>At 8:00 p.m., the Cubans still had not arrived. Finally, at 9:30 p.m.—three hours after sunset—the first young communists began to come in. Eventually everyone returned, although a few people had hurt themselves.</p>
 
-    <p>Later, two young Cuban women knock on my door.</p>
+        <p>The next day, we set off again around 8:30. When we reached the bottom of the mountain three hours later, I was still somewhat irritated, but relieved to have come out unscathed. I still wanted nothing to do with the Cubans. But later that day, as I was napping, there was a knock at my door. “What now?” I thought to myself. “What do they want? That I go sing with them?” I opened the door with an impatient expression. It was two of the young Cuban women. They wore timid smiles. I looked them in the eyes and forced a smile onto my lips. One of them held a bowl of ice cream and slowly lifted it toward me, saying: “Ice cream, Michel?”</p>
 
-    <p>One holds out a bowl.</p>
+        <p>I had lived through many highs and lows during my month-long stay in Cuba, and I held many contradictory impressions. But once again, I melted in the face of the warmth and vitality of the Cuban people. <strong>Viva Cuba!</strong></p>
+      </article>
 
-    <p>“Ice cream, Michel?”</p>
-
-    <h2>Closing</h2>
-
-    <p>I experienced many highs and lows in Cuba.</p>
-
-    <p>But what stayed with me wasn’t ideology.</p>
-
-    <p>It was warmth. Resilience. Human dignity.</p>
-
-    <p><em>Viva Cuba.</em></p>
-
-    <div class="back">
-      <a href="../index.html">← Back to profile</a>
-    </div>
+      <footer class="footer" aria-label="Article footer">
+        <p class="muted" style="margin: 0;">
+          <a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
+        </p>
+      </footer>
+    </section>
   </main>
 </body>
 </html>
+
+
+
+
 
 
