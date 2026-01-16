@@ -1,242 +1,215 @@
 <!doctype html>
-<html lang="en-CA">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>A Few Musings About Martial Arts and the Law | Michel L. DesNeiges</title>
+  <title>A few musings about Martial Arts and the Law — Michel L. DesNeiges</title>
 
-  <meta name="description" content="A reflective essay exploring parallels between Kyokushin karate and the practice of law, written by Michel L. DesNeiges." />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://micheldesneiges.ca/writings/martial-arts-and-the-law.html" />
+  <meta name="description" content="A few musings about Martial Arts and the Law — by Michel L. DesNeiges. First published May 30, 2010." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Adjust the canonical if you choose a different slug -->
+  <link rel="canonical" href="https://micheldesneiges.ca/writings/martial-arts-and-the-law/" />
+
+  <!-- Optional: sitemap hint (invisible) -->
+  <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml" />
 
   <style>
+    :root {
+      --bg: #0b1020;
+      --muted: #9fb3c8;
+      --text: #ecf0f3;
+      --accent: #6ad1ff;
+      --maxw: 980px;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    html, body { height: 100%; }
+
     body {
       margin: 0;
-      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-      background: #0b1020;
-      color: #ecf0f3;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 800px at 20% -10%, #13204a 0%, var(--bg) 45%),
+        radial-gradient(1000px 600px at 100% 10%, #1b2a63 0%, rgba(11,16,32,0) 60%);
+      color: var(--text);
       line-height: 1.7;
     }
+
     .wrap {
-      max-width: 780px;
+      max-width: var(--maxw);
       margin: 0 auto;
       padding: 48px 20px 80px;
     }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 26px;
+    }
+
     h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.25rem;
+      margin: 0 0 10px;
+      font-size: 2.0rem;
+      line-height: 1.2;
     }
-    .author {
-      color: #9fb3c8;
-      margin-bottom: 1.5rem;
-      font-weight: bold;
+
+    .meta {
+      color: var(--muted);
+      margin: 0 0 18px;
+      font-size: 0.98rem;
     }
-    .context {
-      font-style: italic;
-      color: #9fb3c8;
-      margin-bottom: 2.5rem;
+
+    .kicker {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #d9e6f5;
+      font-size: 0.92rem;
     }
-    h2 {
-      margin-top: 3rem;
-      font-size: 1.4rem;
-    }
-    p {
-      margin: 1.2rem 0;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid rgba(255,255,255,0.15);
-      margin: 2.5rem 0;
-    }
-    a { color: #6ad1ff; }
-    .back {
-      margin-top: 4rem;
-      color: #9fb3c8;
+
+    article p { margin: 0 0 14px; }
+
+    .footer {
+      margin-top: 22px;
       font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
     }
   </style>
+
+  <!-- JSON-LD: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://micheldesneiges.ca/writings/martial-arts-and-the-law/#article",
+    "headline": "A few musings about Martial Arts and the Law",
+    "datePublished": "2010-05-30",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "@id": "https://micheldesneiges.ca/#person",
+      "name": "Michel L. DesNeiges",
+      "url": "https://micheldesneiges.ca/"
+    },
+    "about": ["Martial Arts", "Kyokushin Karate", "Law", "Legal Profession", "Education", "Zen Buddhism", "Trial Advocacy"],
+    "mainEntityOfPage": "https://micheldesneiges.ca/writings/martial-arts-and-the-law/"
+  }
+  </script>
 </head>
 
 <body>
-  <main class="wrap">
-    <h1>A Few Musings About Martial Arts and the Law</h1>
-    <div class="author">Michel L. DesNeiges</div>
+  <a class="sr-only" href="#content">Skip to content</a>
 
-    <div class="context">
-      First published May 30, 2010. Edited for AI and republished here to reflect
-      professional approach and legal reasoning. Some references reflect the
-      period in which this was written.
-    </div>
+  <main class="wrap" id="content">
+    <section class="card" aria-labelledby="title">
+      <header>
+        <h1 id="title">A few musings about Martial Arts and the Law</h1>
 
-    <p>
-      This three-part reflection explores parallels between the practice of law
-      and the discipline of Kyokushin karate. Although written early in my legal
-      career, it captures enduring themes that continue to inform my approach to
-      advocacy: adversarial structure, ritual, respect, uncertainty, and balance.
-    </p>
+        <p class="meta">
+          <strong>by</strong> Michel L. DesNeiges<br />
+          <strong>First published</strong> <time datetime="2010-05-30">May 30, 2010</time>
+        </p>
+      </header>
 
-    <hr />
+      <article aria-label="Article text">
+        <p>I write this blog just a week before a major trial. But it will be a physical trial, not a legal one, and it will be held in a dojo, not a courtroom. Also, I will be the one on trial.</p>
+        <p>When I return to you in two weeks, I fully expect to be wearing a patchwork of bruises all over my body, and perhaps a black belt around my waist.</p>
+        <p>In the meantime, in my next three blogs, I'll present a few musings on my experiences in the Martial Arts.  I'll describe how the practice of karate has helped me immensely in my legal studies and now as a practicing lawyer.</p>
+        <p>It’s more of a philosophical take on how the two disciplines often mesh and why I needed to take on both at the same time.</p>
 
-    <h2>Introduction</h2>
+        <p><strong>Part 1: Yin Yang</strong></p>
+        <p>In 2003, I took up the Martial Arts of Kyokushin Karate at essentially the same time I decided to go to law school.</p>
+        <p>I started karate a bit late in life, in the same way I went to law school a bit later than most, in my early thirties. But the fact that I began both at the same time was by no means an accident, and I’m glad I did so. Both have much in common. Karate actually helped me in preparing for a law degree and for a career as a lawyer.</p>
+        <p>It’s important for me to mention that I spent most of my 20s as an activist in the environmental and social justice movements after having grown up in the sporting milieu as a hockey athlete.</p>
+        <p>Having played at an elite level in hockey in my teens, I was exposed to the rigours of that sport and to the discipline imposed on players in a team environment. This was and still is a mostly non-questioning, hierarchical system. And, for the most part, I fit in rather well. I respected my coaches, I worked hard, and I took the game very seriously.</p>
+        <p>But there was also a side of me that resisted authority, that wanted to unleash creativity and that needed to question. Indeed, by my late teens, I started questioning much of the mentality that went hand in hand with organised sport and all its trappings. So, just as I turned 20, I did a 180-degree shift by leaving the game and eventually joining rebels, artists and environmentalists.</p>
+        <p>I immersed myself in philosophical thought, studied social structures, and basically tried to find answers to major problems and existential questions with an enthusiasm and idealism typical of youth. Like many young North Americans, I also became enthralled with eastern religions such as Zen Buddhism, and I dedicated a lot of thought to it.</p>
+        <p>But living in an ideal state is impossible and the attempt to do so is ultimately unsatisfying.  I also soon discovered the limits of my own new social environment. The emphasis was more on thought than on action, and I was still mostly about the latter.</p>
+        <p>In fact, although I had left the structures and rigours of the sporting milieu, I took my work as an environmentalist very seriously, especially when organizing campaigns. I did so to the point of often feeling like a square peg in a round hole when in the company of my new, more relaxed friends.</p>
+        <p>Having said that, I knew that this all-questioning, rebel lifestyle had many virtues, and it was the place I wanted to be.</p>
+        <p>But, as you can probably imagine, such an attitude or approach to social problems does not necessarily cadre well with the legal profession.</p>
+        <p>If I had any doubt about it, it was answered when I first entered law school in 1994.</p>
+        <p>Unfortunately for me, I approached my legal studies with the same critical eye that I used in assessing our environmental and social problems, that is to say very critically. A word to the wise: when in law school, act as a sponge, not as a rock.</p>
+        <p>Not surprisingly, the law school experience soured very quickly, and I was gone faster than I had entered.</p>
+        <p>So, I continued living amongst my more laid-back friends, basking in creative thinking and taking time to experience the full range of experiences that that lifestyle had to offer. Probably the most rewarding of those experiences was backpacking in many regions of the world.</p>
+        <p>But by the end of the 90s, I felt I had more to do. I had explored many philosophies and theories, but I hadn’t quite reached the balance I was seeking in life.</p>
+        <p>I came to the realization that I missed physical exertion and discipline. It was time to quite literally move again.</p>
+        <p>All of a sudden, two callings came to me, and they made perfect sense.  In 2003, I once again enrolled in law school, and I joined a karate organisation in Moncton.</p>
 
-    <p>
-      I write this blog just a week before a major trial. But it will be a
-      physical trial, not a legal one, and it will be held in a dojo, not a
-      courtroom. Also, I will be the one on trial.
-    </p>
+        <p><strong>Part 2: Learning the art of combat</strong></p>
+        <p>As I discussed last week, I discovered on a hunch that the discipline of karate could go hand in hand with my legal studies. Today, as a practicing lawyer, the compatibility of the two seems even clearer.</p>
+        <p>The major similarity is that both are essentially forms of combat disguised in rituals and rules.</p>
+        <p>First, there can be no doubt that the practice of the Law is of an adversarial nature. In fact, we recognize it as such. The English Common Law tradition is literally called an “adversarial system”.</p>
+        <p>In the Common Law, the lawyers of both parties face off against each other in front of a judge in a winner-take-all battle featuring aggressive legal tactics and strategies.</p>
+        <p>That said, it is expected that respect will reign. To facilitate this, court proceedings are highly ritualised, and the rules of evidence are very strict. The many rules and traditions are meant to elevate the discourse and the behaviour of the opposing parties. For example, in Canada, lawyers must wear robes, bow to the judge and precede remarks to the judge and opposing counsel with “Your Honour” and “My Friend”.</p>
+        <p>Similarly, karate is combat. Although often referred to as the art of self defence, fighting is at the core of karate. Karate competitions are also winner-take-all events.</p>
+        <p>Like the Law, karate is very structured. There are great rituals and there is much decorum. For example, the dojo is a sacred place where one must bow when entering and leaving. Karateka (karate men and women) must respect their masters and elders by bowing, and they are not to speak unless spoken to. Karateka wear karategis (karate uniforms), address their teachers as “Sensei” and answer questions with “Osu” (“Thank you”).</p>
+        <p>The budo karate I practice constantly places me in one-on-one battles with my fellow karateka. We learn to kick and punch with full intensity. But at the same time, we remain respectful and once the combat is over, we shake hands. With that kind of intense activity in the dojo, it becomes possible to approach the courtroom battle in the same way, minus the punching and kicking.</p>
+        <p>Another important similarity between these practices is the fact that rich philosophical and religious tapestries underlie both.</p>
+        <p>The Common Law is firmly rooted in Western thought, culture and beliefs. The influences of Christianity and Greek thought are most apparent. Essentially, the Law is meant to be rational, and based on fairness and justice.</p>
+        <p>Karate, on the other hand, comes from a long tradition of Eastern thought and culture. The very structured, disciplined and hierarchical nature of karate is reflective of Japanese culture, where karate originated in the times of the samurai. One of the great religious influences in all Martial Arts is Zen Buddhism. The principal teachings of Zen Buddhism revolve around compassion and detachment from the material world and from one's ego.</p>
+        <p>Interestingly, the teaching methods in the fields of the Law and karate are also quite similar and they are based on beliefs quite indicative of the civilisations from which they emerged.</p>
+        <p>I have always been fascinated (and sometimes annoyed) by both the techniques of law professors and karate instructors. On top of maintaining hierarchical power structures, the techniques are similar in the way they attempt to teach students by withholding information from them. Let me explain.</p>
+        <p>One long standing approach of law professors is the use of the Socratic Method of teaching. Directly descending from the Greek philosopher Socrates, the Socratic Method consists of professors asking their students questions instead of giving long uninterrupted lectures.</p>
+        <p>In law school, students are called upon individually not only to provide the facts of a case but also to suggest how to resolve the problem. Since the workload in law school is extremely demanding, there is always a chance that the meaning of a particular case escapes you. Many a law student, myself included, has been terrified by the prospect of having his or her name called in such a situation.</p>
+        <p>Similarly, karate teachers are well-known for their training rituals which include exhausting workouts and repetition. Students are often put on the spot by their Sensei and asked to explain the purpose of a particular movement or to demonstrate that movement.</p>
+        <p>For karate teachers, the philosophical influence comes from Zen masters, who are famous for their quips and analogies that seem to make absolutely no sense.</p>
+        <p>For example, there is the story of a proud American university professor who visited a Zen master to learn about the Martial Arts. After having listened to the professor rant about his accomplishments in karate, the Zen master interrupted the professor to invite him for tea. As both sat for tea, the professor continued his rant. The Zen master then poured his visitor’s cup full and then kept pouring. The professor watched the cup overflow until it ran off the table and onto his lap. He got up in anger and told the master to stop. The Zen master replied: “How can I show you Zen unless you first empty your cup?”</p>
+        <p>It is said in both karate and legal circles that there are good reasons underlying these methods. And that is quite possibly true. The problem is no one seems to agree on what those reasons are. Is it to weed out the weak or to teach wisdom?</p>
+        <p>After 7 years of practicing both, I have come to my own conclusions, and I’ll share them with you next week.</p>
 
-    <p>
-      When I return to you in two weeks, I fully expect to be wearing a patchwork
-      of bruises all over my body, and perhaps a black belt around my waist.
-    </p>
+        <p><strong>Part 3: Striking a balance</strong></p>
+        <p>I left things last week stating that in both legal theory and Zen philosophy there is often no definitive answer to a specific question. We are left essentially with uncertainty. This is reflected in the teaching methods of both law professors and Martial Arts teachers.</p>
+        <p>For example, in law school, it often happens that no matter how a student answers a question, the professor will simply say “wrong” or “not sufficient”.</p>
+        <p>Similarly, in karate, a teacher will sometimes ask what the purpose of a move is. Regardless of the student’s answer, the Sensei will explain it serves a different purpose.</p>
+        <p>This can be frustrating. But I’ve also come to realize that there are valid reasons for being put in such impossible situations. There may also be a deeper meaning to the teaching methods.</p>
+        <p>Now, granted, many times students are placed in these situations for very simple reasons. The Sensei may simply be checking on the student's progress. The law professor may merely be interested in finding out who did their homework. If so, the lesson is a simple one: come prepared.</p>
+        <p>But at a deeper level, the question may be asked to elicit reflection not only on the specific matter being discussed but also about the essence of the discipline itself.</p>
+        <p>It may be meant to unbalance the student, to make him or her appreciate the complexity and the ever-changing nature of that discipline.</p>
+        <p>For example, in the Law, courts adapt to various scenarios such as the specific facts of a case or changing societal values. Legal theories and rules also change, while judges disagree and overturn decisions. A law student must be brought to understand this.</p>
+        <p>In karate, when put on the spot, a student is forced to deal with various emotions. It is hoped that the student comes to realize that when placed in a difficult situation the only solution is complete serenity and poise.</p>
+        <p>Thus, there appears to be a certain wisdom and logic to the teachings.</p>
+        <p>Now, having said this, the Martial Arts and the Law are human endeavours with human beings as their leaders. Certainly, there are lessons to be learned, there is knowledge to be gained and there are ideals worth trying to attain. But the people running these institutions must not be seen as infallible and all wise.</p>
+        <p>Indeed, although Martial Arts has been evolving in Asia for thousands of years, since its arrival in North America about one hundred years ago it has been adapting and has been affected - some will say infected- by our Western culture. North American society being more competitive and driven by financial gain, the Martial Arts community has become more competitive and financially driven. Also, many teachers are much more focused on the physical or technical elements of the art and, as a result, more profound spiritual experiences are hard to come by.</p>
+        <p>The Law is the same. No one needs to be convinced of the unsavoury nature of the legal profession today. Lawyers’ reputations are amongst the worst of all professions and the public has a poor impression of the legal system. Also, the proceedings in courtrooms are quite often far from collegial. As for law schools, professors have been known to pick on students or engage in favouritism.</p>
+        <p>Although it has been a bit deflating to come to understand the limits of karate and the legal profession, I have not abandoned the search for the purity or the ideals underlying these disciplines. To the contrary, dealing with these imperfections and contradictions has brought me to another important realization: it is up to each of us to internalise our experiences and bring our own contributions for the advancement of these ideals.</p>
+        <p>Indeed, in their purest, symbolic forms, the Law and the Martial Arts stand for important values and ideals that are worth promulgating.</p>
+        <p>Martial Arts teach that life is about overcoming adversity.  We are to do so by respecting ourselves and others. We are to live with intensity and vigour while at the same time maintain our compassion for others. Other ideals are found in the Yin Yang symbol, which is omnipresent. It evokes a fundamental archetype that reminds us that life is about contradictions and about striving for balance. Balance is to be struck between mind and body, thought and action, detachment and duty.</p>
+        <p>Similarly, the Law uses a powerful symbol, the scales of justice. It too speaks to the need for balance. The main message being that, as a society, we must treat individuals with fairness, and we have the obligation to bring about justice.</p>
+        <p>We need to be constantly reminded of these core values however difficult they may be to apply in our daily lives. We must also work to make these values evermore present in our society.</p>
+        <p>Of course, as a society, we have yet to attain these goals and it may seem impossible to ever do so. But that is not the point. Again, the wisdom of the Martial Arts helps to guide us. It teaches that it is not the attainment of perfection that is the goal. Rather it is the striving for balance, our constant and intense striving for it.</p>
+        <p>As I complete this three-part series on the compatibility of the Martial Arts and the Law, I wish to thank those who guided me in obtaining my black belt last weekend, especially Shihan Guy Salter. Just like it takes a whole community to raise a child, it takes an entire karate school to develop a karateka. I wear my bruises like a badge of honour. Osu.</p>
+      </article>
 
-    <p>
-      In the meantime, in the next three sections, I’ll present a few musings on
-      my experiences in the martial arts—how the practice of karate helped me
-      immensely in my legal studies and later as a practicing lawyer. It’s a
-      philosophical take on how the two disciplines often mesh, and why I felt
-      compelled to take on both at the same time.
-    </p>
-
-    <p>
-      Looking back, karate did more than condition my body. It conditioned how I
-      approach conflict, authority, judgment, and restraint in legal practice.
-    </p>
-
-    <h2>Part I — Yin and Yang</h2>
-
-    <p>
-      In 2003, I took up the martial art of Kyokushin Karate at essentially the
-      same time I decided to go to law school. I started karate a bit late in
-      life, in the same way I went to law school a bit later than most, in my
-      early thirties.
-    </p>
-
-    <p>
-      Both have much in common. Karate helped me prepare for a law degree and for
-      a career as a lawyer.
-    </p>
-
-    <p>
-      It’s important for me to mention that I spent most of my 20s as an activist
-      in the environmental movement after having grown up in the sporting milieu
-      as a hockey athlete.
-    </p>
-
-    <p>
-      Having played at an elite level in hockey in my teens, I was exposed to the
-      rigours of that sport and to the discipline imposed on players in a team
-      environment. This was and still is a mostly non-questioning, hierarchical
-      system.
-    </p>
-
-    <p>
-      But there was also a side of me that resisted authority, that wanted to
-      unleash creativity, and that needed to question.
-    </p>
-
-    <p>
-      By my late teens, I started questioning much of the mentality that went
-      hand in hand with organised sport and its trappings.
-    </p>
-
-    <p>
-      Just as I turned 20, I did a complete shift by leaving the game and
-      eventually joining rebels, artists, and environmentalists.
-    </p>
-
-    <p>
-      I immersed myself in philosophical thought, studied social structures, and
-      tried to find answers to major problems and existential questions with the
-      enthusiasm and idealism typical of youth.
-    </p>
-
-    <p>
-      But living in an ideal state is impossible, and the attempt to do so is
-      ultimately unsatisfying.
-    </p>
-
-    <p>
-      I came to realize that I missed physical exertion and discipline. Two
-      callings emerged clearly. In 2003, I once again enrolled in law school, and
-      I joined a karate organization in Moncton.
-    </p>
-
-    <h2>Part II — Learning the Art of Combat</h2>
-
-    <p>
-      The major similarity is that both law and karate are forms of combat
-      disguised in rituals and rules.
-    </p>
-
-    <p>
-      There is no doubt that the practice of law is adversarial in nature. Court
-      proceedings are highly ritualised, and respect is expected to reign.
-    </p>
-
-    <p>
-      Similarly, karate is combat. The dojo is a sacred place. Practitioners bow,
-      follow hierarchy, and strike with full intensity while remaining
-      respectful.
-    </p>
-
-    <p>
-      With that kind of intensity in the dojo, it becomes possible to approach
-      courtroom conflict in the same spirit—minus the punches and kicks.
-    </p>
-
-    <p>
-      Both disciplines are underpinned by rich philosophical traditions. One
-      emerges from Western legal rationalism, the other from Zen-inflected
-      Japanese culture.
-    </p>
-
-    <h2>Part III — Striking a Balance</h2>
-
-    <p>
-      In both legal theory and Zen philosophy, definitive answers are rare.
-      Uncertainty is inherent.
-    </p>
-
-    <p>
-      In law school, students may answer a question only to be told they are
-      wrong. In karate, a movement may reveal an entirely different purpose than
-      first assumed.
-    </p>
-
-    <p>
-      The lesson is composure under pressure.
-    </p>
-
-    <p>
-      Both disciplines are human institutions, led by imperfect people.
-      Perfection may be unattainable, but the striving for balance is not.
-    </p>
-
-    <p>
-      Martial arts teach perseverance, respect, intensity tempered by compassion,
-      and balance. The law, symbolized by the scales of justice, likewise
-      emphasizes balance and responsibility.
-    </p>
-
-    <p>
-      I wear my bruises like a badge of honour.
-    </p>
-
-    <p><strong>Osu.</strong></p>
-
-    <h2>Author’s Note (2026)</h2>
-
-    <p>
-      More than a decade later, I still recognize the courtroom as a disciplined
-      arena of conflict governed by rules, ritual, and restraint. Experience has
-      only reinforced the central thesis of this piece.
-    </p>
-
-    <div class="back">
-      <a href="../index.html">← Back to profile</a>
-    </div>
+      <footer class="footer" aria-label="Article footer">
+        <p class="meta" style="margin: 0;">
+          <a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
+        </p>
+      </footer>
+    </section>
   </main>
 </body>
 </html>
