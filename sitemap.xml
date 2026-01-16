@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root / canonical profile -->
+  <url>
+    <loc>https://micheldesneiges.ca/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Writings index -->
+  <url>
+    <loc>https://micheldesneiges.ca/writings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Martial Arts & the Law -->
+  <url>
+    <loc>https://micheldesneiges.ca/writings/martial-arts-and-the-law.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- In Search of Complexity (Central America, 2000–2001) -->
+  <url>
+    <loc>https://micheldesneiges.ca/writings/central-america-2000-2001.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- The Highs and Lows of Cuba -->
+  <url>
+    <loc>https://micheldesneiges.ca/writings/cuba-2000.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+</urlset>
