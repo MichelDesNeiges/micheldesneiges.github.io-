@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -157,7 +157,7 @@
   }
   </script>
 
-  <!-- JSON-LD: Person -->
+  <!-- JSON-LD: Person (no PostalAddress; address is explicitly not publicly listed) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -167,24 +167,30 @@
     "alternateName": ["Michel L. DesNeiges, Esq.", "Michel LeBlanc DesNeiges"],
     "jobTitle": "Legal Consultant & Private Bar Counsel (Selective Practice)",
     "worksFor": { "@type": "Organization", "name": "Independent Practice" },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Moncton",
-      "addressRegion": "New Brunswick",
-      "addressCountry": "CA"
-    },
+
+    "email": "michel.desneiges@gmail.com",
+    "telephone": "+1-506-389-8999",
+
+    "areaServed": [
+      { "@type": "City", "name": "Moncton" },
+      { "@type": "AdministrativeArea", "name": "New Brunswick" },
+      { "@type": "Country", "name": "Canada" }
+    ],
+
     "homeLocation": { "@type": "Place", "name": "Moncton, New Brunswick, Canada" },
     "nationality": "Canada",
     "url": "https://micheldesneiges.ca/",
     "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
     "knowsAbout": [
-      "Criminal Law",
-      "Environmental Law",
-      "Trial Advocacy",
+      "Criminal law",
+      "Child protection law",
+      "Administrative law",
+      "Environmental law (public law aspects)",
+      "Trial advocacy",
       "Écoversité",
-      "Riverkeeper Programs",
+      "Riverkeeper programs",
       "Petitcodiac River",
-      "Clinical Legal Education",
+      "Clinical legal education",
       "Shinkyokushin Karate"
     ],
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Université de Moncton" },
@@ -211,9 +217,20 @@
       "@type": "Occupation",
       "name": "Lawyer",
       "occupationLocation": { "@type": "AdministrativeArea", "name": "New Brunswick, Canada" },
-      "skills": ["Criminal Defence", "Trial Practice", "Environmental Law"]
+      "skills": ["Criminal defence", "Trial practice", "Environmental law"]
     },
-    "description": "Moncton-based lawyer with a selective law practice. Former criminal trial lawyer; environmental advocacy leader (Écoversité) who spearheaded a Riverkeeper program for the Petitcodiac River (1999); former law clinic director and lecturer; championship hockey goaltender; black belt in Shinkyokushin Karate; adventure traveler.",
+
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "appointments",
+        "email": "michel.desneiges@gmail.com",
+        "telephone": "+1-506-389-8999",
+        "availableLanguage": ["English", "French"]
+      }
+    ],
+
+    "description": "Moncton-based lawyer with a selective law practice. After a full career in areas of public law, he now maintains a limited and selective legal practice, focusing on advisory work, targeted advocacy, and files of particular legal or public interest. Office address is not publicly listed. No public walk-in office or public reception address. Meetings by appointment only.",
     "brand": { "@type": "Brand", "name": "Michel DesNeiges" }
   }
   </script>
@@ -227,7 +244,7 @@
     "name": "Michel DesNeiges — Private Bar Counsel",
     "url": "https://micheldesneiges.ca/",
     "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
-    "telephone": "+15063898999",
+    "telephone": "+1-506-389-8999",
     "email": "michel.desneiges@gmail.com",
     "areaServed": [
       { "@type": "City", "name": "Moncton" },
@@ -238,7 +255,7 @@
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "+15063898999",
+        "telephone": "+1-506-389-8999",
         "email": "michel.desneiges@gmail.com",
         "contactType": "appointments",
         "availableLanguage": ["en", "fr"]
@@ -248,7 +265,7 @@
       "@type": "ServiceChannel",
       "servicePhone": {
         "@type": "ContactPoint",
-        "telephone": "+15063898999",
+        "telephone": "+1-506-389-8999",
         "contactType": "appointments"
       },
       "serviceUrl": "https://micheldesneiges.ca/#contact"
@@ -279,7 +296,7 @@
         "name": "Who is Michel DesNeiges?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Michel DesNeiges is a Moncton-based lawyer with nearly two decades of experience in criminal law, environmental law, and legal education, now practicing on a limited and selective basis."
+          "text": "Michel DesNeiges is a Moncton-based lawyer with experience across areas of public law, now practicing on a limited and selective basis."
         }
       },
       {
@@ -287,7 +304,7 @@
         "name": "What areas of law does he focus on?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "He focuses on criminal law and trial advocacy, with experience in environmental law and clinical legal education."
+          "text": "He focuses on a selective practice, with experience in criminal law, child protection law, administrative law, and public-law aspects of environmental law."
         }
       },
       {
@@ -303,7 +320,7 @@
         "name": "What are notable achievements outside law?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "He won a national title as a hockey goaltender with the Université de Moncton Aigles Bleus (1989–90), earned a black belt with Maritime Shinkyokushin Karate, and has traveled to 50+ countries including Asia and the Himalayas."
+          "text": "He won a national title as a hockey goaltender with the Université de Moncton Aigles Bleus (1989–90), earned a black belt with Maritime Shinkyokushin Karate, and has traveled extensively including Asia and the Himalayas."
         }
       }
     ]
