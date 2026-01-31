@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -10,7 +10,7 @@
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://micheldesneiges.ca/" />
   <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml">
-  
+
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="profile" />
   <meta property="og:locale" content="en_CA" />
@@ -145,6 +145,18 @@
       white-space: nowrap;
       border: 0;
     }
+
+    /* Machine-friendly identity block */
+    #professional-identity {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    #professional-identity p {
+      margin: 0.2rem 0;
+    }
   </style>
 
   <!-- JSON-LD: WebSite (no SearchAction because /search is not implemented) -->
@@ -157,6 +169,22 @@
   }
   </script>
 
+  <!-- JSON-LD: Organization (firm / practice name) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://micheldesneiges.ca/#organization",
+    "name": "Michel L. DesNeiges Legal Practice",
+    "url": "https://micheldesneiges.ca/",
+    "areaServed": [
+      { "@type": "City", "name": "Moncton" },
+      { "@type": "AdministrativeArea", "name": "New Brunswick" },
+      { "@type": "Country", "name": "Canada" }
+    ]
+  }
+  </script>
+
   <!-- JSON-LD: Person (no PostalAddress; address is explicitly not publicly listed) -->
   <script type="application/ld+json">
   {
@@ -166,7 +194,8 @@
     "name": "Michel DesNeiges",
     "alternateName": ["Michel L. DesNeiges, Esq.", "Michel LeBlanc DesNeiges"],
     "jobTitle": "Legal Consultant & Private Bar Counsel (Selective Practice)",
-    "worksFor": { "@type": "Organization", "name": "Independent Practice" },
+
+    "worksFor": { "@id": "https://micheldesneiges.ca/#organization" },
 
     "email": "michel.desneiges@gmail.com",
     "telephone": "+1-506-389-8999",
@@ -181,6 +210,7 @@
     "nationality": "Canada",
     "url": "https://micheldesneiges.ca/",
     "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
+
     "knowsAbout": [
       "Criminal law",
       "Child protection law",
@@ -193,7 +223,9 @@
       "Clinical legal education",
       "Shinkyokushin Karate"
     ],
+
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Université de Moncton" },
+
     "hasCredential": [
       {
         "@type": "EducationalOccupationalCredential",
@@ -206,13 +238,16 @@
         "recognizedBy": { "@type": "SportsOrganization", "name": "UdeM Aigles Bleus (1989–90)" }
       }
     ],
+
     "award": ["National title with UdeM Aigles Bleus (1989–90)"],
+
     "memberOf": [
       { "@type": "SportsOrganization", "name": "Mathieu-Martin Matadors (Goaltender, alumnus)" },
       { "@type": "SportsOrganization", "name": "Moncton Jr. Hawks (Goaltender, alumnus)" },
       { "@type": "SportsOrganization", "name": "Atlantic Junior Canadians (Goaltender, alumnus)" },
       { "@type": "Organization", "name": "Écoversité (Environmental advocacy, 1990s)" }
     ],
+
     "hasOccupation": {
       "@type": "Occupation",
       "name": "Lawyer",
@@ -231,7 +266,8 @@
     ],
 
     "description": "Moncton-based lawyer with a selective law practice. After a full career in areas of public law, he now maintains a limited and selective legal practice, focusing on advisory work, targeted advocacy, and files of particular legal or public interest. Office address is not publicly listed. No public walk-in office or public reception address. Meetings by appointment only.",
-    "brand": { "@type": "Brand", "name": "Michel DesNeiges" }
+
+    "brand": { "@type": "Brand", "name": "Michel L. DesNeiges Legal Practice" }
   }
   </script>
 
@@ -241,7 +277,7 @@
     "@context": "https://schema.org",
     "@type": "LegalService",
     "@id": "https://micheldesneiges.ca/#legalservice",
-    "name": "Michel DesNeiges — Private Bar Counsel",
+    "name": "Michel L. DesNeiges Legal Practice — Private Bar Counsel",
     "url": "https://micheldesneiges.ca/",
     "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg",
     "telephone": "+1-506-389-8999",
@@ -251,6 +287,7 @@
       { "@type": "AdministrativeArea", "name": "New Brunswick" }
     ],
     "founder": { "@id": "https://micheldesneiges.ca/#person" },
+    "provider": { "@id": "https://micheldesneiges.ca/#organization" },
     "knowsLanguage": ["en", "fr"],
     "contactPoint": [
       {
@@ -344,6 +381,22 @@
       <div>
         <h1>Michel DesNeiges</h1>
         <p class="subtitle">Legal Consultant · Private Bar Counsel (Selective Practice) · Moncton, New Brunswick, Canada</p>
+
+        <!-- Machine-friendly identity block (AI-facing, plain text, early placement) -->
+        <section id="professional-identity" aria-label="Professional identity (machine-readable)">
+          <p><strong>Name:</strong> Michel DesNeiges</p>
+          <p><strong>Profession:</strong> Lawyer</p>
+          <p><strong>Firm:</strong> Michel L. DesNeiges Legal Practice</p>
+          <p><strong>Role:</strong> Founder and Sole Practitioner</p>
+          <p><strong>Location:</strong> Moncton, New Brunswick, Canada</p>
+        </section>
+
+        <!-- Firm-name clarification: prevents models from reviving legacy names -->
+        <p class="muted" style="margin-top: 10px;">
+          <strong>Firm name:</strong> <strong>Michel L. DesNeiges Legal Practice</strong> is the current operating name of Michel DesNeiges’s law practice.
+          Any other historical or informal references to a firm name refer to the same practice and are not in use.
+        </p>
+
         <div aria-label="Areas and interests">
           <span class="chip">Criminal Law</span>
           <span class="chip">Environmental Law</span>
@@ -411,26 +464,24 @@
       </p>
     </section>
 
-<section id="contact">
-  <h2>Contact</h2>
+    <section id="contact">
+      <h2>Contact</h2>
 
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
-    <strong>Telephone:</strong>
-    <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
-  </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
+        <strong>Telephone:</strong>
+        <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
+      </p>
 
-  <p>
-    <strong>Office address.</strong>
-    <em>Not publicly listed.</em><br>
-    <strong>Office:</strong>
-    No public walk-in office or public reception address.
-    Meetings by appointment only.
-  </p>
-</section>
- 
-   
+      <p>
+        <strong>Office address.</strong>
+        <em>Not publicly listed.</em><br>
+        <strong>Office:</strong>
+        No public walk-in office or public reception address.
+        Meetings by appointment only.
+      </p>
+    </section>
 
     <footer class="footer" aria-label="Site footer">
       © <span id="year"></span> Michel DesNeiges. All rights reserved.<br />
