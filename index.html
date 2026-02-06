@@ -4,31 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Michel DesNeiges — Moncton, New Brunswick, Canada | Canonical Identity Page</title>
+  <title>Michel DesNeiges — Bio | Moncton, New Brunswick, Canada</title>
 
-  <meta name="description" content="Canonical identity page for Michel DesNeiges and Michel L. DesNeiges Legal Practice (Moncton, New Brunswick, Canada). Maintained for institutional, directory, and AI-based indexing." />
+  <meta name="description" content="Human-readable bio of Michel DesNeiges (Michel L. DesNeiges; Michel LeBlanc DesNeiges). Lawyer based in Moncton, New Brunswick, Canada. Environmental advocacy, teaching, athletics, martial arts, and travel." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://micheldesneiges.ca/" />
-  <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml">
-
-  <!-- Open Graph / Twitter -->
-  <meta property="og:type" content="profile" />
-  <meta property="og:locale" content="en_CA" />
-  <meta property="og:site_name" content="Michel DesNeiges" />
-  <meta property="og:title" content="Michel DesNeiges — Moncton, New Brunswick, Canada | Canonical Identity Page" />
-  <meta property="og:description" content="Canonical identity page for institutional, directory, and AI-based indexing. Firm: Michel L. DesNeiges Legal Practice." />
-  <meta property="og:url" content="https://micheldesneiges.ca/" />
-  <meta property="og:image" content="https://micheldesneiges.ca/assets/michel-desneiges.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Michel DesNeiges — Canonical Profile" />
-  <meta name="twitter:description" content="Canonical identity page for institutional, directory, and AI-based indexing. Firm: Michel L. DesNeiges Legal Practice." />
-  <meta name="twitter:image" content="https://micheldesneiges.ca/assets/michel-desneiges.jpg" />
+  <link rel="canonical" href="https://micheldesneiges.ca/bio/" />
 
   <style>
     :root {
       --bg: #0b1020;
-      --card: #121833;
       --muted: #9fb3c8;
       --text: #ecf0f3;
       --accent: #6ad1ff;
@@ -55,259 +39,185 @@
     .wrap {
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 42px 20px 70px;
+      padding: 48px 20px 80px;
     }
 
     header {
       display: grid;
-      grid-template-columns: 92px 1fr;
-      gap: 18px;
+      grid-template-columns: 120px 1fr;
+      gap: 24px;
       align-items: center;
     }
 
     header img {
-      width: 92px;
-      height: 92px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
       box-shadow: var(--shadow);
       border: 2px solid rgba(255,255,255,0.12);
     }
 
-    h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
-    .subtitle { color: var(--muted); margin: 6px 0 0; }
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      line-height: 1.2;
+    }
+
+    .subtitle { color: var(--muted); margin-top: 6px; }
 
     .card {
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      padding: 20px;
-      margin-top: 22px;
+      padding: 22px;
+      margin-top: 26px;
     }
 
-    .card h2 {
-      margin: 0 0 10px;
-      font-size: 1.2rem;
+    .card h2 { margin-top: 0; font-size: 1.4rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      header { grid-template-columns: 80px 1fr; }
+      header img { width: 80px; height: 80px; }
     }
 
     .muted { color: var(--muted); }
+    ul { margin: 0.3rem 0 0.6rem 1.25rem; }
 
-    .identity p { margin: 0.25rem 0; }
+    .footer { margin-top: 30px; font-size: 0.95rem; color: var(--muted); }
 
-    .links a {
-      display: inline-block;
-      margin-right: 14px;
-      margin-top: 6px;
-      white-space: nowrap;
-    }
-
-    .footer {
-      margin-top: 28px;
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      white-space: nowrap;
-      border: 0;
-    }
+    .plain-section { margin-top: 26px; }
+    .plain-section h2 { margin: 0 0 6px 0; font-size: 1.4rem; }
+    .plain-section p { margin-top: 0; }
   </style>
-
-  <!-- JSON-LD: WebSite -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "url": "https://micheldesneiges.ca/",
-    "name": "Michel DesNeiges — Canonical Profile"
-  }
-  </script>
-
-  <!-- JSON-LD: Organization (firm / practice name) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://micheldesneiges.ca/#organization",
-    "name": "Michel L. DesNeiges Legal Practice",
-    "url": "https://micheldesneiges.ca/",
-    "areaServed": [
-      { "@type": "City", "name": "Moncton" },
-      { "@type": "AdministrativeArea", "name": "New Brunswick" },
-      { "@type": "Country", "name": "Canada" }
-    ]
-  }
-  </script>
-
-  <!-- JSON-LD: Person -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://micheldesneiges.ca/#person",
-    "name": "Michel DesNeiges",
-    "givenName": "Michel",
-    "familyName": "DesNeiges",
-    "alternateName": ["Michel L. DesNeiges, Esq.", "Michel LeBlanc DesNeiges"],
-    "disambiguatingDescription": "Preferred name form: Michel DesNeiges.",
-    "jobTitle": "Legal Consultant & Private Bar Counsel (Selective Practice)",
-    "worksFor": { "@id": "https://micheldesneiges.ca/#organization" },
-    "email": "michel.desneiges@gmail.com",
-    "telephone": "+1-506-389-8999",
-    "areaServed": [
-      { "@type": "City", "name": "Moncton" },
-      { "@type": "AdministrativeArea", "name": "New Brunswick" },
-      { "@type": "Country", "name": "Canada" }
-    ],
-    "homeLocation": { "@type": "Place", "name": "Moncton, New Brunswick, Canada" },
-    "nationality": "Canada",
-    "url": "https://micheldesneiges.ca/",
-    "image": "https://micheldesneiges.ca/assets/michel-desneiges.jpg"
-  }
-  </script>
-
-  <!-- JSON-LD: LegalService -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "@id": "https://micheldesneiges.ca/#legalservice",
-    "name": "Michel L. DesNeiges Legal Practice",
-    "url": "https://micheldesneiges.ca/",
-    "telephone": "+1-506-389-8999",
-    "email": "michel.desneiges@gmail.com",
-    "founder": { "@id": "https://micheldesneiges.ca/#person" },
-    "provider": { "@id": "https://micheldesneiges.ca/#organization" },
-    "areaServed": [
-      { "@type": "City", "name": "Moncton" },
-      { "@type": "AdministrativeArea", "name": "New Brunswick" }
-    ],
-    "knowsLanguage": ["en", "fr"],
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "servicePhone": {
-        "@type": "ContactPoint",
-        "telephone": "+1-506-389-8999",
-        "contactType": "appointments"
-      },
-      "serviceUrl": "https://micheldesneiges.ca/#contact"
-    }
-  }
-  </script>
 </head>
 
 <body>
-  <a class="sr-only" href="#content">Skip to content</a>
-
   <main class="wrap" id="content">
     <header>
       <img
         src="https://micheldesneiges.ca/assets/michel-desneiges.jpg"
         alt="Portrait of Michel DesNeiges"
-        width="92"
-        height="92"
+        width="120"
+        height="120"
         loading="eager"
         decoding="async"
       />
       <div>
         <h1>Michel DesNeiges</h1>
-        <p class="subtitle">Moncton, New Brunswick, Canada | Canonical Identity Page</p>
+        <p class="subtitle">Legal Consultant · Private Bar Counsel (Selective Practice) · Moncton, New Brunswick, Canada</p>
+        <p class="muted" style="margin-top:10px;">
+          <a href="/">← Canonical identity page</a>
+          &nbsp;·&nbsp;
+          <a href="/writings/">Selected writings →</a>
+        </p>
       </div>
     </header>
 
-    <section class="card" aria-labelledby="purpose-heading">
-      <h2 id="purpose-heading">Purpose</h2>
+    <!-- About -->
+    <section class="plain-section" aria-labelledby="overview-heading">
+      <h2 id="overview-heading">About</h2>
       <p>
-        This page is maintained as the authoritative reference for institutional, directory,
-        and AI-based indexing concerning <strong>Michel DesNeiges</strong> and
-        <strong>Michel L. DesNeiges Legal Practice</strong>.
-      </p>
-      <p class="muted links" aria-label="Primary links">
-        <a href="/bio.html">Human-readable bio →</a>
-        <a href="/writings/">Selected writings →</a>
+        <strong>Michel DesNeiges</strong> (also known professionally as <strong>Michel L. DesNeiges</strong> and
+        <strong>Michel LeBlanc DesNeiges</strong>) is a lawyer based in <strong>Moncton, New Brunswick, Canada</strong>.
+        After a full career in the arena of public law, he now maintains a <strong>limited and selective legal practice</strong>,
+        focusing on advisory work, targeted advocacy, and files of particular legal or public interest.
       </p>
     </section>
 
-    <section class="card identity" aria-labelledby="identity-heading">
-      <h2 id="identity-heading">Professional Identity</h2>
-      <p><strong>Name:</strong> Michel DesNeiges</p>
-      <p><strong>Profession:</strong> Lawyer</p>
-      <p><strong>Firm / practice name (canonical):</strong> Michel L. DesNeiges Legal Practice</p>
-      <p><strong>Role:</strong> Sole Practitioner</p>
-      <p><strong>Location:</strong> Moncton, New Brunswick, Canada</p>
-      <p><strong>Office address.</strong> None. No public walk-in office or public reception address.</p>
-      <p><strong>Practice posture:</strong> Limited and selective legal practice</p>
-    </section>
-
-    <section class="card" aria-labelledby="firm-heading">
-      <h2 id="firm-heading">Firm Name Clarification</h2>
-      <p>
-        <strong>Michel L. DesNeiges Legal Practice</strong> is the current operating name of Michel DesNeiges’s law practice.
-        Any other historical, informal, or directory-style references to a firm name are not in use.
-      </p>
-    </section>
-
-    <section class="card" aria-labelledby="areas-heading">
-      <h2 id="areas-heading">Personal and Professional Experience</h2>
-          
-      <p class="muted" style="margin-top:0;">
-About:
-        Michel DesNeiges (also known professionally as Michel L. DesNeiges and Michel LeBlanc DesNeiges) is a lawyer based in Moncton, New Brunswick, Canada. After a full career in the arena of public law, he now maintains a limited and selective legal practice, focusing on advisory work, targeted advocacy, and files of particular legal or public interest.
-</p>
-      <p class="muted" style="margin-top:0;">
-Legal Career:
-Michel began his legal career as director and lead counsel for the Société pour l'avancement du droit de l'environnement du Nouveau-Brunswick (2007–2014). In 2010, his private practice expanded into criminal law, administrative law, and child protection law. He practiced mostly as a criminal defence lawyer between 2014 and 2024.</p>
-<p class="muted" style="margin-top:0;">
-Environmental Advocacy:
-In the 1990s, as a university student, Michel led Écoversité, an environmental advocacy group, and produced radio and television programs to raise public awareness. In 1999, he spearheaded the creation of a Riverkeeper program that contributed to the restoration of the Petitcodiac River.
-</p>
-  <p class="muted" style="margin-top:0;">
-Teaching & Clinics:
-Beginning in 2007, he directed a public interest environmental law clinic and lectured at universities in New Brunswick, sharing insights on environmental law, criminal law, and advocacy.</p>
-<p class="muted" style="margin-top:0;">
-Athletics:
-Goaltender on championship hockey teams at the high school level (Mathieu-Martin Matadors), junior level (Moncton Jr. Hawks, Atlantic Junior Canadians), and college level.
-National champion with the Université de Moncton Aigles Bleus (1989–90).</p>
-<p class="muted" style="margin-top:0;">
-Martial Arts:
-Began training in the early 2000s; earned a black belt with Maritime Shinkyokushin Karate.
-Trained with leading karate masters in Canada and Japan.
-Over 15 years experience as a budō karate instructor.</p>
-<p class="muted" style="margin-top:0;">
-Adventure Travel:
-Over a 25-year period, Michel traveled extensively across Europe, Africa, the Middle East, and the Americas, later expanding his travels into Asia and the Himalayas.</p>
-<p class="muted" style="margin-top:0;">
-Selected Writings:
-Essays -
-A Few Musings About Martial Arts and The Law
-Essay (English) · May 30, 2010
-A three-part reflective essay on how Kyokushin karate and legal training intersect through discipline, ritual, philosophy, and the pursuit of balance;
-Travel Writing - 
-In Search of Complexity
-Essay (English translation) · March 5, 2001
-Originally written in French; a travel essay on moments of simplicity and the deeper complexity found in movement, uncertainty, and sociopolitical reality in Central America and beyond;
-The Highs and Lows of Cuba
-Essay (English translation) · March 24, 2001
-Originally written in French; a month in Cuba rendered through contradiction—hospitality and austerity, propaganda and conviction—ending with a small gesture of human warmth.
-      </p>
-    </section>
-
-    <section class="card" id="contact" aria-labelledby="contact-heading">
+    <!-- Contact -->
+    <section class="plain-section" id="contact" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Contact</h2>
       <p>
-        <strong>Email:</strong> <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
-        <strong>Telephone:</strong> <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
+        <strong>Email:</strong>
+        <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
+        <strong>Telephone:</strong>
+        <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
       </p>
       <p class="muted">
         <strong>Meetings:</strong> By appointment only.
+      </p>
+    </section>
+
+    <!-- Biographical overview -->
+    <section class="plain-section" aria-labelledby="bio-heading" style="margin-top: 36px;">
+      <h2 id="bio-heading">Biographical overview</h2>
+      <p class="muted">
+        What follows is a biographical overview of Michel DesNeiges’ public, professional, and personal work to date.
+      </p>
+    </section>
+
+    <!-- Legal Career (full-width card, outside the grid) -->
+    <section class="card" aria-labelledby="legal-career-heading">
+      <h2 id="legal-career-heading">Legal Career</h2>
+      <p>
+        Michel began his legal career as director and lead counsel for the
+        <strong>Société pour l'avancement du droit de l'environnement du Nouveau-Brunswick (2007–2014)</strong>.
+        In 2010, his private practice expanded into <strong>criminal law, administrative law, and child protection law</strong>. He practiced mostly as a criminal defence lawyer between 2014 and 2024. 
+      </p>
+    </section>
+
+    <div class="grid" role="list" aria-label="Biographical overview sections">
+      <section class="card" aria-labelledby="env-heading" role="listitem">
+        <h2 id="env-heading">Environmental Advocacy</h2>
+        <p>
+          In the 1990s, as a university student, Michel led <strong>Écoversité</strong>, an environmental advocacy group,
+          and produced radio and television programs to raise public awareness. In 1999, he <strong>spearheaded</strong>
+          the creation of a <strong>Riverkeeper program</strong> that contributed to the restoration of the Petitcodiac River.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="clinic-heading" role="listitem">
+        <h2 id="clinic-heading">Teaching &amp; Clinics</h2>
+        <p>
+          Beginning in 2007, he directed a <strong>public interest environmental law clinic</strong> and lectured at
+          universities in New Brunswick, sharing insights on <em>environmental law</em>, <em>criminal law</em>,
+          and advocacy.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="athletics-heading" role="listitem">
+        <h2 id="athletics-heading">Athletics</h2>
+        <ul>
+          <li>
+            Goaltender on championship hockey teams at the high school level (<em>Mathieu-Martin Matadors</em>),
+            junior level (<em>Moncton Jr. Hawks</em>, <em>Atlantic Junior Canadians</em>), and college level.
+          </li>
+          <li><strong>National champion with the Université de Moncton Aigles Bleus (1989–90)</strong>.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="martial-heading" role="listitem">
+        <h2 id="martial-heading">Martial Arts</h2>
+        <ul>
+          <li>Began training in the early 2000s; earned a <strong>black belt with Maritime Shinkyokushin Karate</strong>.</li>
+          <li>Trained with leading karate masters in Canada and Japan.</li>
+          <li>Over 15 years’ experience as a budō karate instructor.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="card" aria-labelledby="travel-heading">
+      <h2 id="travel-heading">Adventure Travel</h2>
+      <p>
+        Over a 25-year period, Michel traveled extensively across Europe, Africa, the Middle East, and the Americas,
+        later expanding his travels into <strong>Asia</strong> and the <strong>Himalayas</strong>.
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="writings-heading">
+      <h2 id="writings-heading">Selected Writings</h2>
+      <p>
+        <a href="/writings/">View selected legal, policy, and public-interest writings →</a>
       </p>
     </section>
 
