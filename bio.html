@@ -66,18 +66,6 @@
 
     .subtitle { color: var(--muted); margin-top: 6px; }
 
-    .chip {
-      display: inline-block;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.06);
-      margin-right: 8px;
-      margin-top: 8px;
-      font-size: 0.9rem;
-      color: #d9e6f5;
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-
     .card {
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
       border: 1px solid rgba(255,255,255,0.08);
@@ -93,6 +81,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
+      margin-top: 14px;
     }
 
     @media (max-width: 860px) {
@@ -105,6 +94,10 @@
     ul { margin: 0.3rem 0 0.6rem 1.25rem; }
 
     .footer { margin-top: 30px; font-size: 0.95rem; color: var(--muted); }
+
+    .plain-section { margin-top: 26px; }
+    .plain-section h2 { margin: 0 0 6px 0; font-size: 1.4rem; }
+    .plain-section p { margin-top: 0; }
   </style>
 </head>
 
@@ -130,7 +123,8 @@
       </div>
     </header>
 
-    <section class="card" aria-labelledby="overview-heading">
+    <!-- About -->
+    <section class="plain-section" aria-labelledby="overview-heading">
       <h2 id="overview-heading">About</h2>
       <p>
         <strong>Michel DesNeiges</strong> (also known professionally as <strong>Michel L. DesNeiges</strong> and
@@ -140,12 +134,29 @@
       </p>
     </section>
 
-   <!-- Partition between About and Biographical Overview -->
-    <section aria-labelledby="bio-heading" style="margin-top: 36px;">
-      <h2 id="bio-heading" style="margin-bottom: 6px;">Biographical overview</h2>
-     </section>
+    <!-- Contact -->
+    <section class="plain-section" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
+        <strong>Telephone:</strong>
+        <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
+      </p>
+      <p class="muted">
+        <strong>Meetings:</strong> By appointment only.
+      </p>
+    </section>
 
-    <div class="grid" role="list">
+    <!-- Biographical overview -->
+    <section class="plain-section" aria-labelledby="bio-heading" style="margin-top: 36px;">
+      <h2 id="bio-heading">Biographical overview</h2>
+      <p class="muted">
+        What follows is a biographical overview of Michel DesNeiges’ public, professional, and personal work to date.
+      </p>
+    </section>
+
+    <div class="grid" role="list" aria-label="Biographical overview sections">
       <section class="card" aria-labelledby="env-heading" role="listitem">
         <h2 id="env-heading">Environmental Advocacy</h2>
         <p>
@@ -197,19 +208,6 @@
       <h2 id="writings-heading">Selected Writings</h2>
       <p>
         <a href="/writings/">View selected legal, policy, and public-interest writings →</a>
-      </p>
-    </section>
-
-    <section class="card" id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p>
-        <strong>Email:</strong>
-        <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br>
-        <strong>Telephone:</strong>
-        <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a>
-      </p>
-      <p class="muted">
-        <strong>Meetings:</strong> By appointment only.
       </p>
     </section>
 
