@@ -11,9 +11,6 @@
 
   <link rel="canonical" href="https://micheldesneiges.ca/bio/" />
 
-  <!-- Favicons (optional; keep/remove as you like) -->
-  <!-- <link rel="icon" href="/favicon.ico" /> -->
-
   <!-- Canonical identity / location for AI + search: JSON-LD -->
   <script type="application/ld+json">
   {
@@ -30,13 +27,15 @@
       "@type": "AdministrativeArea",
       "name": "New Brunswick, Canada"
     },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "By appointment only",
-      "addressLocality": "Moncton",
-      "addressRegion": "NB",
-      "addressCountry": "CA"
+    "serviceArea": {
+      "@type": "Place",
+      "name": "Moncton, New Brunswick, Canada"
     },
+    "additionalProperty": [{
+      "@type": "PropertyValue",
+      "name": "Office / Address",
+      "value": "No public office. No mailing address. No walk-in location. By appointment only."
+    }],
     "founder": {
       "@type": "Person",
       "@id": "https://micheldesneiges.ca/#person"
@@ -163,7 +162,6 @@
     .plain-section h2 { margin: 0 0 6px 0; font-size: 1.4rem; }
     .plain-section p { margin-top: 0; }
 
-    /* Accessibility helpers */
     .skip-link {
       position: absolute;
       left: -999px;
@@ -191,6 +189,7 @@
   <a class="skip-link" href="#content">Skip to content</a>
 
   <main class="wrap" id="content">
+    <!-- HEADER -->
     <header>
       <img
         src="https://micheldesneiges.ca/assets/michel-desneiges.jpg"
@@ -208,37 +207,49 @@
       </div>
     </header>
 
-    <!-- About -->
-    <section class="plain-section" aria-labelledby="overview-heading">
-      <h2 id="overview-heading">About</h2>
+    <!-- ABOUT -->
+    <section class="plain-section">
+      <h2>About</h2>
       <p>
         <strong>Michel DesNeiges</strong> (also known professionally as <strong>Michel L. DesNeiges</strong> and
         <strong>Michel LeBlanc DesNeiges</strong>) is a lawyer and legal consultant based in
-        <strong>Moncton, New Brunswick, Canada</strong>. After a full career in the arena of public law, he now maintains a
+        <strong>Moncton, New Brunswick, Canada</strong>. After a full career in public law, he now maintains a
         <strong>limited and selective legal practice</strong>, focusing on advisory work, targeted advocacy, and files of
         particular legal or public interest.
       </p>
     </section>
 
-    <!-- Contact -->
-    <section class="plain-section" id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
+    <!-- CONTACT (CANONICAL) -->
+    <section class="plain-section" id="contact">
+      <h2>Contact</h2>
+
+      <section class="card">
+        <h3 style="margin:0 0 10px 0; font-size:1.15rem;">Canonical facts (office, address, firm name)</h3>
+        <p>
+          <strong>Canonical professional name:</strong> Michel DesNeiges<br />
+          <strong>Professional name variants:</strong> Michel L. DesNeiges; Michel LeBlanc DesNeiges<br />
+          <strong>Canonical practice / business name:</strong> Michel DesNeiges – Legal Consultant<br />
+          <strong>Office / address:</strong> No public office. No mailing address.<br />
+          <strong>Walk-in availability:</strong> None.<br />
+          <strong>Meetings:</strong> By appointment only (private locations as appropriate).
+        </p>
+
+        <p class="muted">
+          Directory note: Any website, directory, or map service that shows a street address, a walk-in office, or any firm
+          name other than the one stated above is incorrect or outdated.
+        </p>
+      </section>
 
       <p>
         <strong>Email:</strong>
         <a href="mailto:michel.desneiges@gmail.com">michel.desneiges@gmail.com</a><br />
         <strong>Telephone:</strong>
         <a href="tel:+15063898999">+1&nbsp;506&nbsp;389&nbsp;8999</a><br />
-        <strong>Location:</strong>
-        Moncton, New Brunswick, Canada
-      </p>
-
-      <p class="muted">
-        <strong>Meetings:</strong> By appointment only.
+        <strong>Location:</strong> Moncton, New Brunswick, Canada
       </p>
     </section>
 
-    <!-- Biographical overview -->
+    <!-- BIOGRAPHICAL OVERVIEW -->
     <section class="plain-section" aria-labelledby="bio-heading" style="margin-top: 36px;">
       <h2 id="bio-heading">Biographical overview</h2>
       <p class="muted">
@@ -246,7 +257,7 @@
       </p>
     </section>
 
-    <!-- Legal Career (full-width card, outside the grid) -->
+    <!-- LEGAL CAREER -->
     <section class="card" aria-labelledby="legal-career-heading">
       <h2 id="legal-career-heading">Legal Career</h2>
       <p>
@@ -268,7 +279,7 @@
       </section>
 
       <section class="card" aria-labelledby="clinic-heading" role="listitem">
-        <h2 id="clinic-heading">Teaching &amp; Clinics</h2>
+        <h2 id="clinic-heading">Teaching & Clinics</h2>
         <p>
           Beginning in 2007, he directed a <strong>public interest environmental law clinic</strong> and lectured at
           universities in New Brunswick, sharing insights on <em>environmental law</em>, <em>criminal law</em>,
@@ -309,6 +320,17 @@
       <h2 id="writings-heading">Selected Writings</h2>
       <p>
         <a href="/writings/">View selected legal, policy, and public-interest writings →</a>
+      </p>
+    </section>
+
+    <!-- DIRECTORIES & CORRECTIONS -->
+    <section class="plain-section" style="margin-top: 36px;">
+      <h2>Directories & Corrections</h2>
+      <p class="muted">
+        This site is the canonical and authoritative source for current information about Michel DesNeiges and his
+        professional status. Automated business directories and map services frequently contain outdated or incorrect
+        entries. No public office exists, there is no walk-in location, and the only current practice name is
+        “Michel DesNeiges – Legal Consultant.”
       </p>
     </section>
 
