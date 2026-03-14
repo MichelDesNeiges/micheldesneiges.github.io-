@@ -10,7 +10,6 @@
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://micheldesneiges.ca/writings/in-search-of-complexity/" />
 
-  <!-- Optional: sitemap hint (invisible) -->
   <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml" />
 
   <style>
@@ -95,9 +94,38 @@
       white-space: nowrap;
       border: 0;
     }
+
+    .essay-photo {
+      margin: 32px auto 0;
+      text-align: center;
+    }
+
+    .essay-photo img {
+      display: block;
+      width: min(720px, 100%);
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 12px;
+    }
+
+    .essay-photo figcaption {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .essay-photo {
+        margin-top: 24px;
+      }
+
+      .essay-photo img {
+        width: 100%;
+      }
+    }
   </style>
 
-  <!-- JSON-LD: Article -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -163,15 +191,15 @@
 
         <p>Without a doubt, the country that embodies the greatest complexity and is most often misunderstood is Cuba, that Caribbean island which offers a rare example of a nation that resists the homogenization of corporatist capitalism and where the notion of revolution for social justice still resonates. This will be the subject of my next article, in approximately two weeks.</p>
       </article>
-<figure class="essay-photo end-photo">
-  <img
-    src="https://micheldesneiges.ca/assets/tikal1.jpg"
-    alt="At Tikal National Park during travel in Central America, 2001"
-    width="720">
-  <figcaption>Tikal National Park — Guatemala, 2001</figcaption>
-</figure>
+ <figure class="essay-photo end-photo">
+        <img
+          src="https://micheldesneiges.ca/assets/tikal1.jpg"
+          alt="At Tikal National Park during travel in Central America, 2001">
+        <figcaption>Tikal National Park — Guatemala, 2001</figcaption>
+      </figure>
+
       <footer class="footer" aria-label="Article footer">
-        <p class="muted" style="margin: 0;">
+        <p class="meta" style="margin: 0;">
           <a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
         </p>
       </footer>
