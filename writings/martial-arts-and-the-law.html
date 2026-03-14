@@ -9,10 +9,7 @@
   <meta name="description" content="A few musings about Martial Arts and the Law — by Michel L. DesNeiges. First published May 30, 2010." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
 
-  <!-- Adjust the canonical if you choose a different slug -->
   <link rel="canonical" href="https://micheldesneiges.ca/writings/martial-arts-and-the-law/" />
-
-  <!-- Optional: sitemap hint (invisible) -->
   <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml" />
 
   <style>
@@ -97,9 +94,40 @@
       white-space: nowrap;
       border: 0;
     }
+
+    /* Image styling */
+
+    .essay-photo {
+      margin: 32px auto 0;
+      text-align: center;
+    }
+
+    .essay-photo img {
+      display: block;
+      max-width: 100%;
+      width: min(720px, 100%);
+      height: auto;
+      margin: 0 auto;
+      border-radius: 12px;
+    }
+
+    .essay-photo figcaption {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .essay-photo {
+        margin-top: 24px;
+      }
+
+      .essay-photo img {
+        width: 100%;
+      }
+    }
   </style>
 
-  <!-- JSON-LD: Article -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -121,10 +149,12 @@
 </head>
 
 <body>
-  <a class="sr-only" href="#content">Skip to content</a>
 
-  <main class="wrap" id="content">
-    <section class="card" aria-labelledby="title">
+<a class="sr-only" href="#content">Skip to content</a>
+
+<main class="wrap" id="content">
+
+<section class="card" aria-labelledby="title">
       <header>
         <h1 id="title">A few musings about Martial Arts and the Law</h1>
 
@@ -203,19 +233,23 @@
         <p>Of course, as a society, we have yet to attain these goals and it may seem impossible to ever do so. But that is not the point. Again, the wisdom of the Martial Arts helps to guide us. It teaches that it is not the attainment of perfection that is the goal. Rather it is the striving for balance, our constant and intense striving for it.</p>
         <p>As I complete this three-part series on the compatibility of the Martial Arts and the Law, I wish to thank those who guided me in obtaining my black belt last weekend, especially Shihan Guy Salter. Just like it takes a whole community to raise a child, it takes an entire karate school to develop a karateka. I wear my bruises like a badge of honour. Osu.</p>
       </article>
+
 <figure class="essay-photo end-photo">
-  <img
-  src="https://micheldesneiges.ca/assets/karate1.jpg"
-  alt="Kyokushin karate training group in Quebec, 2010"
-  width="720">
-  <figcaption>Kyokushin karate training group, Quebec — 2010</figcaption>
+<img
+src="https://micheldesneiges.ca/assets/karate1.jpg"
+alt="Kyokushin karate training group in Quebec, 2010">
+<figcaption>Kyokushin karate training group, Quebec — 2010</figcaption>
 </figure>
-      <footer class="footer" aria-label="Article footer">
-        <p class="meta" style="margin: 0;">
-          <a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
-        </p>
-      </footer>
-    </section>
-  </main>
+
+<footer class="footer" aria-label="Article footer">
+<p class="meta" style="margin: 0;">
+<a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
+</p>
+</footer>
+
+</section>
+
+</main>
+
 </body>
 </html>
