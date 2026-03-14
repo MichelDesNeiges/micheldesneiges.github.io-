@@ -9,10 +9,7 @@
   <meta name="description" content="The Highs and Lows of Cuba (March 24, 2001) — an essay by Michel DesNeiges. Originally written in French; presented here in English translation." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
 
-  <!-- Adjust the canonical if you choose a different slug -->
   <link rel="canonical" href="https://micheldesneiges.ca/writings/the-highs-and-lows-of-cuba/" />
-
-  <!-- Optional: sitemap hint (invisible) -->
   <link rel="sitemap" type="application/xml" href="https://micheldesneiges.ca/sitemap.xml" />
 
   <style>
@@ -97,9 +94,38 @@
       white-space: nowrap;
       border: 0;
     }
+
+    .essay-photo {
+      margin: 32px auto 0;
+      text-align: center;
+    }
+
+    .essay-photo img {
+      display: block;
+      width: min(720px, 100%);
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 12px;
+    }
+
+    .essay-photo figcaption {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .essay-photo {
+        margin-top: 24px;
+      }
+
+      .essay-photo img {
+        width: 100%;
+      }
+    }
   </style>
 
-  <!-- JSON-LD: Article -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -197,15 +223,15 @@
 
         <p>I had lived through many highs and lows during my month-long stay in Cuba, and I held many contradictory impressions. But once again, I melted in the face of the warmth and vitality of the Cuban people. <strong>Viva Cuba!</strong></p>
       </article>
-<figure class="essay-photo end-photo">
-  <img
-    src="https://micheldesneiges.ca/assets/cuba.jpg"
-    alt="Street scene in Santa Clara during travel in Cuba, 2000"
-    width="720">
-  <figcaption>Santa Clara street scene — 2000</figcaption>
-</figure>
+ <figure class="essay-photo end-photo">
+        <img
+          src="https://micheldesneiges.ca/assets/cuba.jpg"
+          alt="Street scene in Santa Clara during travel in Cuba, 2000">
+        <figcaption>Santa Clara street scene — 2000</figcaption>
+      </figure>
+
       <footer class="footer" aria-label="Article footer">
-        <p class="muted" style="margin: 0;">
+        <p class="meta" style="margin: 0;">
           <a href="https://micheldesneiges.ca/writings/">← Back to Selected Writings</a>
         </p>
       </footer>
