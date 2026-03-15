@@ -82,7 +82,6 @@
     }
   </style>
 
-  <!-- JSON-LD: Person tie-in -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -94,7 +93,6 @@
   }
   </script>
 
-  <!-- JSON-LD: CollectionPage + references -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -103,16 +101,7 @@
     "url": "https://micheldesneiges.ca/coverage/",
     "name": "Selected Coverage & Sources — Michel DesNeiges",
     "about": ["Legal Services", "Environmental Advocacy", "Petitcodiac River", "Legal Education", "Martial Arts"],
-    "author": { "@id": "https://micheldesneiges.ca/#person" },
-    "hasPart": [
-      {
-        "@type": "NewsArticle",
-        "headline": "PLACEHOLDER TITLE",
-        "datePublished": "2000-01-01",
-        "publisher": { "@type": "Organization", "name": "OUTLET" },
-        "url": "https://example.com/source"
-      }
-    ]
+    "author": { "@id": "https://micheldesneiges.ca/#person" }
   }
   </script>
 </head>
@@ -124,7 +113,7 @@
     <section class="card">
       <h1>Selected Coverage &amp; Sources</h1>
       <p class="muted" style="margin-top: 10px;">
-        This page indexes third-party sources that support key facts referenced on the main professional profile.
+        This page indexes third-party sources supporting key facts referenced on the main professional profile.
         For background, see <a href="https://micheldesneiges.ca/">micheldesneiges.ca</a>.
       </p>
       <p class="muted" style="margin-top: 10px;">
@@ -136,12 +125,12 @@
       <h2 id="env-heading">Environmental advocacy &amp; Petitcodiac River</h2>
       <ul class="list">
         <li class="item">
-          <div class="title">DISCOVERING THE SPIRIT OF THE RIVERKEEPER</div>
-          <div class="meta">The New Brunswick Telegraph-Journal · <time datetime="YYYY-MM-DD">February 25, 1999</time></div>
-          <p class="desc muted">Robert Kennedy Jr. inspires Michel LeBlanc in his fight to save the Petitcodiac</p>
-          <p class="quote">“With the creation of the Petitcodiac Riverkeeper, this has assured us that we’re going to be around – loud- for many years to come.”</p>
+          <div class="title">Discovering the Spirit of the Riverkeeper</div>
+          <div class="meta">The New Brunswick Telegraph-Journal · <time datetime="1999-02-25">February 25, 1999</time></div>
+          <p class="desc muted">Robert Kennedy Jr. inspires Michel LeBlanc in his fight to save the Petitcodiac.</p>
+          <p class="quote">“With the creation of the Petitcodiac Riverkeeper, this has assured us that we’re going to be around for many years to come.”</p>
           <div class="links">
-            <a href="https://micheldesneiges.ca/coverage" rel="noopener">Read</a>
+            <a href="https://example.com/original-article-url" rel="noopener noreferrer">Read source</a>
           </div>
         </li>
       </ul>
