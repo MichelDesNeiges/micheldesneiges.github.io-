@@ -19,9 +19,10 @@
     Canonical identity for search engines and AI systems.
 
     The Person entity is intentionally primary.
-    The legal practice is represented separately as one aspect of Michel DesNeiges'
-    present professional activity.
+    The legal practice is represented separately as one aspect of
+    Michel DesNeiges' present professional activity.
   -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,7 +37,6 @@
         ],
         "description": "Michel DesNeiges is a lawyer, writer and longtime public-interest advocate based in Moncton, New Brunswick, Canada. His work has included environmental advocacy, public-interest law, criminal defence, teaching, writing and community affairs.",
         "url": "https://micheldesneiges.ca/bio/",
-        "image": "https://micheldesneiges.ca/assets/michel-desneiges-portrait.jpg",
         "email": "michel.desneiges@gmail.com",
         "telephone": "+15063898999",
         "homeLocation": {
@@ -73,8 +73,7 @@
         "@type": "LegalService",
         "@id": "https://micheldesneiges.ca/#legalservice",
         "name": "Michel DesNeiges – Legal Practice",
-        "url": "https://micheldesneiges.ca/",
-        "image": "https://micheldesneiges.ca/assets/michel-desneiges-portrait.jpg",
+        "url": "https://micheldesneiges.ca/Legal/",
         "telephone": "+15063898999",
         "email": "michel.desneiges@gmail.com",
         "priceRange": "$$",
@@ -133,9 +132,19 @@
         Arial,
         "Apple Color Emoji",
         "Segoe UI Emoji";
+
       background:
-        radial-gradient(1200px 800px at 20% -10%, #13204a 0%, var(--bg) 45%),
-        radial-gradient(1000px 600px at 100% 10%, #1b2a63 0%, rgba(11,16,32,0) 60%);
+        radial-gradient(
+          1200px 800px at 20% -10%,
+          #13204a 0%,
+          var(--bg) 45%
+        ),
+        radial-gradient(
+          1000px 600px at 100% 10%,
+          #1b2a63 0%,
+          rgba(11,16,32,0) 60%
+        );
+
       color: var(--text);
       line-height: 1.6;
     }
@@ -155,19 +164,32 @@
       padding: 48px 20px 80px;
     }
 
+    /* HEADER */
+
     header {
       display: flex;
       align-items: center;
       gap: 26px;
     }
 
-    header img {
-      width: 136px;
-      height: 136px;
+    .monogram {
+      width: 88px;
+      height: 88px;
       flex-shrink: 0;
+
       border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid rgba(255,255,255,0.16);
+      background: #172642;
+      border: 1px solid #53667e;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: var(--text);
+      font-size: 1.7rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+
       box-shadow: 0 8px 24px rgba(0,0,0,0.3);
     }
 
@@ -182,6 +204,8 @@
       margin-top: 6px;
     }
 
+    /* CONTENT CARDS */
+
     .card {
       background:
         linear-gradient(
@@ -189,9 +213,11 @@
           rgba(255,255,255,0.04),
           rgba(255,255,255,0.02)
         );
+
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
+
       padding: 22px;
       margin-top: 26px;
     }
@@ -208,15 +234,31 @@
       margin-top: 14px;
     }
 
+    /* RESPONSIVE DESIGN */
+
     @media (max-width: 860px) {
-      .grid { grid-template-columns: 1fr; }
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 600px) {
-      header { gap: 18px; }
-      header img { width: 88px; height: 88px; }
-      header h1 { font-size: 1.65rem; }
+      header {
+        gap: 18px;
+      }
+
+      .monogram {
+        width: 72px;
+        height: 72px;
+        font-size: 1.4rem;
+      }
+
+      header h1 {
+        font-size: 1.65rem;
+      }
     }
+
+    /* GENERAL TYPOGRAPHY */
 
     .muted {
       color: var(--muted);
@@ -245,6 +287,8 @@
       margin-top: 0;
     }
 
+    /* ACCESSIBILITY */
+
     .skip-link {
       position: absolute;
       left: -999px;
@@ -270,31 +314,39 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+
+  <a class="skip-link" href="#content">
+    Skip to content
+  </a>
 
   <main class="wrap" id="content">
 
     <!-- HEADER -->
+
     <header>
-      <img
-        src="/assets/michel-desneiges-portrait.jpg"
-        alt="Portrait of Michel DesNeiges"
-        width="136"
-        height="136"
-        loading="eager"
-        decoding="async"
-      />
+
+      <div class="monogram" aria-hidden="true">
+        MD
+      </div>
+
       <div>
         <h1>Michel DesNeiges</h1>
+
         <p class="subtitle">
           Moncton, New Brunswick, Canada
         </p>
       </div>
+
     </header>
 
 
     <!-- ABOUT -->
-    <section class="plain-section" aria-labelledby="about-heading">
+
+    <section
+      class="plain-section"
+      aria-labelledby="about-heading"
+    >
+
       <h2 id="about-heading">About</h2>
 
       <p>
@@ -312,7 +364,8 @@
         and community affairs. In the 1990s, he was active in the campaign
         to restore the <strong>Petitcodiac River</strong> and spearheaded
         the establishment of the <strong>Petitcodiac Riverkeeper</strong>.
-        He later practiced as an <strong>environmental lawyer</strong> before moving into other areas of public law, including 
+        He later practiced as an <strong>environmental lawyer</strong>
+        before moving into other areas of public law, including
         a decade-long <strong>criminal defence</strong> practice.
       </p>
 
@@ -327,26 +380,35 @@
         to that work, along with other interests including travel,
         athletics and martial arts.
       </p>
+
     </section>
 
 
     <!-- BIOGRAPHICAL OVERVIEW -->
+
     <section
       class="plain-section"
       aria-labelledby="bio-heading"
       style="margin-top: 36px;"
     >
+
       <h2 id="bio-heading">Biographical Overview</h2>
 
       <p class="muted">
         Selected aspects of Michel DesNeiges' public, professional and
         personal work to date.
       </p>
+
     </section>
 
 
     <!-- ENVIRONMENTAL ADVOCACY -->
-    <section class="card" aria-labelledby="env-heading">
+
+    <section
+      class="card"
+      aria-labelledby="env-heading"
+    >
+
       <h2 id="env-heading">Environmental Advocacy</h2>
 
       <p>
@@ -363,8 +425,11 @@
         Petitcodiac, an initiative that formed part of the broader public
         campaign that ultimately contributed to restoration of the river.
       </p>
+
     </section>
 
+
+    <!-- BIOGRAPHICAL CARDS -->
 
     <div
       class="grid"
@@ -372,12 +437,15 @@
       aria-label="Biographical overview sections"
     >
 
+
       <!-- LEGAL CAREER -->
+
       <section
         class="card"
         aria-labelledby="legal-career-heading"
         role="listitem"
       >
+
         <h2 id="legal-career-heading">Legal Career</h2>
 
         <p>
@@ -385,17 +453,21 @@
           <strong>New Brunswick Environmental Law Society (2007–2014)</strong>.
           In 2010, his private practice expanded from
           environmental law into criminal law, administrative law and child protection law.
-          He practised mostly as a <strong>criminal defence lawyer</strong> between 2014 and 2024.
+          He practised mostly as a <strong>criminal defence lawyer</strong>
+          between 2014 and 2024.
         </p>
+
       </section>
 
 
       <!-- TEACHING -->
+
       <section
         class="card"
         aria-labelledby="clinic-heading"
         role="listitem"
       >
+
         <h2 id="clinic-heading">Teaching &amp; Clinics</h2>
 
         <p>
@@ -404,15 +476,18 @@
           and lectured at universities in New Brunswick, sharing
           experience in environmental law, criminal law and advocacy.
         </p>
+
       </section>
 
 
       <!-- WRITING -->
+
       <section
         class="card"
         aria-labelledby="writings-heading"
         role="listitem"
       >
+
         <h2 id="writings-heading">Selected Writings</h2>
 
         <p>
@@ -425,18 +500,22 @@
             View selected writings →
           </a>
         </p>
+
       </section>
 
 
       <!-- ATHLETICS -->
+
       <section
         class="card"
         aria-labelledby="athletics-heading"
         role="listitem"
       >
+
         <h2 id="athletics-heading">Athletics (Alumni)</h2>
 
         <ul>
+
           <li>
             Goaltender on championship hockey teams at the high school level
             (<em>Mathieu-Martin Matadors</em>), junior level
@@ -450,19 +529,24 @@
               Aigles Bleus (1989–90).
             </strong>
           </li>
+
         </ul>
+
       </section>
 
 
       <!-- MARTIAL ARTS -->
+
       <section
         class="card"
         aria-labelledby="martial-heading"
         role="listitem"
       >
+
         <h2 id="martial-heading">Martial Arts</h2>
 
         <ul>
+
           <li>
             Began training in the early 2000s and earned a
             <strong>black belt with Maritime Shinkyokushin Karate</strong>.
@@ -475,16 +559,20 @@
           <li>
             More than 15 years' experience as a budō karate instructor.
           </li>
+
         </ul>
+
       </section>
 
 
       <!-- TRAVEL -->
+
       <section
         class="card"
         aria-labelledby="travel-heading"
         role="listitem"
       >
+
         <h2 id="travel-heading">Adventure Travel</h2>
 
         <p>
@@ -493,16 +581,19 @@
           expanding his travels into <strong>Asia</strong> and the
           <strong>Himalayas</strong>.
         </p>
+
       </section>
 
     </div>
 
 
     <!-- COVERAGE AND HISTORICAL SOURCES -->
+
     <section
       class="card"
       aria-labelledby="coverage-heading"
     >
+
       <h2 id="coverage-heading">Selected Coverage &amp; Sources</h2>
 
       <p>
@@ -516,16 +607,19 @@
           View selected coverage &amp; sources →
         </a>
       </p>
+
     </section>
 
 
     <!-- CURRENT LEGAL PRACTICE -->
+
     <section
       class="plain-section"
       id="legal-practice"
       aria-labelledby="current-practice-heading"
       style="margin-top: 36px;"
     >
+
       <h2 id="current-practice-heading">Current Legal Practice</h2>
 
       <p>
@@ -537,66 +631,83 @@
         The legal practice is not operated as a conventional walk-in law
         office. Meetings are by appointment only.
       </p>
+
     </section>
 
 
     <!-- CONTACT -->
+
     <section
       class="plain-section"
       id="contact"
       aria-labelledby="contact-heading"
     >
+
       <h2 id="contact-heading">Contact</h2>
 
       <p>
+
         <strong>Email:</strong>
         <a href="mailto:michel.desneiges@gmail.com">
           michel.desneiges@gmail.com
         </a>
+
         <br />
 
         <strong>Telephone:</strong>
         <a href="tel:+15063898999">
           +1&nbsp;506&nbsp;389&nbsp;8999
         </a>
+
         <br />
 
         <strong>Location:</strong>
         Moncton, New Brunswick, Canada
+
       </p>
+
     </section>
 
 
     <!-- CANONICAL PROFESSIONAL INFORMATION -->
+
     <section
       class="card"
       aria-labelledby="canonical-heading"
     >
+
       <h2 id="canonical-heading">Canonical Professional Information</h2>
 
       <p>
+
         <strong>Canonical professional name:</strong>
         Michel DesNeiges
+
         <br />
 
         <strong>Professional name variants:</strong>
         Michel L. DesNeiges; Michel LeBlanc DesNeiges
+
         <br />
 
         <strong>Canonical practice / business name:</strong>
         Michel DesNeiges – Legal Practice
+
         <br />
 
         <strong>Office / address:</strong>
         No public office. No mailing address.
+
         <br />
 
         <strong>Walk-in availability:</strong>
         None.
+
         <br />
 
         <strong>Meetings:</strong>
         By appointment only, at private locations as appropriate.
+
       </p>
 
       <p class="muted">
@@ -604,15 +715,18 @@
         a street address, a walk-in office, or any firm name other than
         the one stated above is incorrect or outdated.
       </p>
+
     </section>
 
 
     <!-- DIRECTORIES AND CORRECTIONS -->
+
     <section
       class="plain-section"
       aria-labelledby="corrections-heading"
       style="margin-top: 36px;"
     >
+
       <h2 id="corrections-heading">Directories &amp; Corrections</h2>
 
       <p class="muted">
@@ -623,10 +737,12 @@
         exists, there is no walk-in location, and the current practice name
         is “Michel DesNeiges – Legal Practice.”
       </p>
+
     </section>
 
 
     <!-- FOOTER -->
+
     <footer class="footer" aria-label="Site footer">
       © <span id="year"></span> Michel DesNeiges. All rights reserved.
     </footer>
