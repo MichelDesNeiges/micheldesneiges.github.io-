@@ -36,7 +36,7 @@
         ],
         "description": "Michel DesNeiges is a lawyer, writer and longtime public-interest advocate based in Moncton, New Brunswick, Canada. His work has included environmental advocacy, public-interest law, criminal defence, teaching, writing and community affairs.",
         "url": "https://micheldesneiges.ca/bio/",
-        "image": "https://micheldesneiges.ca/assets/michel-desneiges.png",
+        "image": "https://micheldesneiges.ca/assets/michel-desneiges-portrait.jpg",
         "email": "michel.desneiges@gmail.com",
         "telephone": "+15063898999",
         "homeLocation": {
@@ -74,7 +74,7 @@
         "@id": "https://micheldesneiges.ca/#legalservice",
         "name": "Michel DesNeiges – Legal Practice",
         "url": "https://micheldesneiges.ca/",
-        "image": "https://micheldesneiges.ca/assets/michel-desneiges.png",
+        "image": "https://micheldesneiges.ca/assets/michel-desneiges-portrait.jpg",
         "telephone": "+15063898999",
         "email": "michel.desneiges@gmail.com",
         "priceRange": "$$",
@@ -156,19 +156,19 @@
     }
 
     header {
-      display: grid;
-      grid-template-columns: 120px 1fr;
-      gap: 24px;
+      display: flex;
       align-items: center;
+      gap: 26px;
     }
 
     header img {
-      width: 120px;
-      height: 120px;
+      width: 136px;
+      height: 136px;
+      flex-shrink: 0;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: var(--shadow);
-      border: 2px solid rgba(255,255,255,0.12);
+      border: 2px solid rgba(255,255,255,0.16);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
     }
 
     h1 {
@@ -209,18 +209,13 @@
     }
 
     @media (max-width: 860px) {
-      .grid {
-        grid-template-columns: 1fr;
-      }
+      .grid { grid-template-columns: 1fr; }
+    }
 
-      header {
-        grid-template-columns: 80px 1fr;
-      }
-
-      header img {
-        width: 80px;
-        height: 80px;
-      }
+    @media (max-width: 600px) {
+      header { gap: 18px; }
+      header img { width: 88px; height: 88px; }
+      header h1 { font-size: 1.65rem; }
     }
 
     .muted {
@@ -281,8 +276,14 @@
 
     <!-- HEADER -->
     <header>
-      
-
+      <img
+        src="/assets/michel-desneiges-portrait.jpg"
+        alt="Portrait of Michel DesNeiges"
+        width="136"
+        height="136"
+        loading="eager"
+        decoding="async"
+      />
       <div>
         <h1>Michel DesNeiges</h1>
         <p class="subtitle">
